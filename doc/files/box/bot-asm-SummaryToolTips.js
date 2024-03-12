@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:box/bot.asm",{314:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Perform the bottom side of the resizing dialog box animation.</div></div>"});

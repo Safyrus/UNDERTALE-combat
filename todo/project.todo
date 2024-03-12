@@ -1,0 +1,90 @@
+Projects:
+    UI:
+        ✔ Mockup @done(24-01-24 14:00)
+        ✔ Display basic text @done(24-01-24 14:00)
+        ✔ dialog box logic @done(24-01-24 14:00)
+        ✔ Resizable combat box @done(24-01-25 02:11)
+        ✔ Player stat @done(24-01-27)
+        ✔ FIGHT @done(24-03-09 20:55)
+        ✔ MERCY @done(24-02-19)
+        ✔ ACT @done(24-02-20)
+        ✔ ITEM @done(24-03-11 03:35)
+        ☐ Game Over
+    Sound:
+        ✔ setup Famistudio @done(24-03-11 05:50)
+        ✔ setup Famistudio (More than 8KB of musics) @done(24-03-11 11:23)
+        ✔ setup Famistudio (DPCM) @done(24-03-11 11:23)
+        ✔ Fix DPCM making fake inputs @done(24-03-11 11:49)
+        ☐ MUS control char
+        ☐ SND control char
+        ☐ BIP control char
+        ☐ music
+        ☐ sound
+    Souls:
+        ✔ Menu @done(24-01-24 13:58)
+        ✔ Red @done(24-01-24 13:59)
+        ✔ Blue @done(24-01-24 19:09)
+        ✔ Fight @done(24-03-09 20:56)
+        ✔ Wait @done(24-03-09 20:56)
+        ☐ Green
+        ☐ Yellow
+        ☐ Purple
+        ☐ Orange ? (dash (y) + always move (?))
+        ☐ Cyan ? (stamina ? only move next to atk ? both ?)
+        ☐ Switch ? (UDLR = let stick  ABST = right stick / 2 dpad with 2 controllers)
+        ☐ Celeste ? (dash + climb + gravity)
+        ☐ Confusion/Stability ? (move box + bullets ?)
+        ☐ Monster ? (hope/magic (create thing ?))
+        ☐ Hate ? (destroy thing ?)
+        ☐ Empty/Vessel ? (nothing)
+    Monster logic:
+        ✔ Find how to do it @done(24-01-25 20:51)
+        ✔ code structure (stats+name loading) @done(24-01-25 20:51)
+        ✔ code structure (events) @done(24-01-25 20:52)
+        ✔ code structure (fight) @done(24-01-25 20:52)
+        Text:
+            ✔ LZ decode
+            ✔ find and read text from lz block @done(24-02-02 18:04)
+        Background & Sprite:
+            ✔ rleinc decode
+            ✔ find image @done(24-02-04 21:57)
+        Background:
+            ✔ image -> packet buffer @done(24-02-04 21:57)
+            ✔ packet buffer -> ppu @done(24-02-04 21:57)
+        Sprite:
+            ✔ image -> entity @done(24-02-12 20:04)
+            ✔ draw entity @done(24-02-12 20:04)
+        Animation:
+            ✔ background @done(24-02-05 18:38)
+            ✔ sprite @done(24-02-12 20:04)
+        ✔ plug events @done(24-02-??)
+        ✔ draw bullets @done(24-02-18 17:00)
+        ✔ bullet collision system @done(24-02-13)
+    Scripts:
+        Text:
+            ✔ Convert text to lz
+            ✔ Merge monster text @done(24-02-02 18:04)
+            ✔ Generate labels @done(24-02-02 18:04)
+            ✔ include merged monster text @done(24-02-02 18:04)
+        ✔ Convert monster stats and names to asm @done(24-01-26 22:30)
+        ✔ Convert monster fights to asm @done(24-01-26 18:49)
+        ✔ Include monster code in game data @done(24-02-01 02:28)
+        Background:
+            ✔ CHR @done(24-01-31 19:31)
+            ✔ Data @done(24-01-31 19:31)
+            ✔ Constants (index) @done(24-02-04 23:04)
+            ☐ Partial frame
+            ✔ 4 color @done(24-03-09 20:56)
+        Sprites:
+            ✔ CHR @done(24-01-31 19:31)
+            ✔ Data @done(24-01-31 19:31)
+            ☐ Pointers
+            ☐ 4 color
+        ✔ background anim @done(24-02-05 18:38)
+        ✔ sprite anim @done(24-02-12 20:05)
+        ✔ Something that help cut musics into banks @done(24-03-11 12:36)
+    Bugs/Perf:
+        ☐ Fix background overflow when resizing combat box (not correctly chenking if buffer is too small)
+        ☐ better resizable box code
+        ☐ First power up (with no save/all MMC5 RAM to 0) softlock (but all other power up works afterward)
+        ☐ Hitbox sprite update is too slow

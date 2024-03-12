@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sou",["Enumeration","Constant"],[["SOUL",,[[,,,,0,"File:constant.asm:SOUL"]]],["SOUL_TILE",,[[,,,,1,"File:constant.asm:SOUL_TILE"]]]]);

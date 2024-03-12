@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("scr",["Variable"],[["scroll_x",,[[,,,,0,"File:memory.asm:scroll_x"]]],["scroll_y",,[[,,,,0,"File:memory.asm:scroll_y"]]]]);

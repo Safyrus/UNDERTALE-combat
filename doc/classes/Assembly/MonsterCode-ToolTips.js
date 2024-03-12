@@ -1,0 +1,1 @@
+﻿NDContentPage.OnToolTipsLoaded({359:"<div class=\"NDToolTip TVariable LAssembly\"><div id=\"NDPrototype359\" class=\"NDPrototype\"><div class=\"PSection PPlainSection\">monster_code_bnk:</div></div><div class=\"TTSummary\">List of 256 PRG bank indices.&nbsp; The index in the array is the ID of the monster.</div></div>"});

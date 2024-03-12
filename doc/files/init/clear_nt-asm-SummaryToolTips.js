@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:init/clear_nt.asm",{82:"<div class=\"NDToolTip TFile LAssembly\"><div class=\"TTSummary\">subrountines related to clearing nametables</div></div>",84:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Clear all nametables.&nbsp; /!\\ rendering must be disable /!\\</div></div>"});

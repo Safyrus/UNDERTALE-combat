@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:soul/menu.asm","menu.asm");NDSummary.OnSummaryLoaded("File:soul/menu.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[18,0,1,"Functions","Functions"],[19,0,0,"switch_player_soul_to_menu","switch_player_soul_to_menu"],[20,0,0,"update_player_menu","update_player_menu"]]);

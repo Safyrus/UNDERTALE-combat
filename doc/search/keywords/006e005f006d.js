@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("n_m",["Variable"],[["n_monster",,[[,,,,0,"File:memory.asm:n_monster"]]]]);

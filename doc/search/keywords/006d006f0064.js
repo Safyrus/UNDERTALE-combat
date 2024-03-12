@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("mod",["Constant"],[["mode",,[[,"MMC5 CHR banking mode",,,0,"File:constant.asm:MMC5_CHR_banking_mode"],[,"MMC5 Extended RAM mode",,,0,"File:constant.asm:MMC5_Extended_RAM_mode"],[,"MMC5 PRG banking mode",,,0,"File:constant.asm:MMC5_PRG_banking_mode"]]]]);

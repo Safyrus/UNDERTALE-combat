@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:soul/wait.asm",{445:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Update variables to be able to switch to wait soul.</div></div>",23:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Do almost nothing.</div></div>"});

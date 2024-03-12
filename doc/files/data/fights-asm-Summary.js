@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:data/fights.asm","fights.asm");NDSummary.OnSummaryLoaded("File:data/fights.asm",[["Assembly","Assembly"]],[["Groups","Group"],["Variables","Variable"]],[[350,0,0,"Variables","Variables"],[356,0,1,"fights","fights"]]);

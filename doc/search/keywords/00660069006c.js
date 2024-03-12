@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("fil",["Constant"],[["Fill",,[[,"MMC5 Fill nametable registers",,,0,"File:constant.asm:MMC5_Fill_nametable_registers"]]]]);

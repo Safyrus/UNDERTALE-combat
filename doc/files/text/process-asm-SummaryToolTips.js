@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:text/process.asm",{75:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Print a character on the screen.</div></div>",76:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Process and print the text in each dialog box.</div></div>"});

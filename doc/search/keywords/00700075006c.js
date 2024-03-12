@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("pul",["Macro"],[["pull",,[[,,,,0,"File:macro/stack.asm:pull"]]],["pull_ax",,[[,,,,0,"File:macro/stack.asm:pull_ax"]]],["pull_ay",,[[,,,,0,"File:macro/stack.asm:pull_ay"]]],["pullregs",,[[,,,,0,"File:macro/stack.asm:pullregs"]]]]);

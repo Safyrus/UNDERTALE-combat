@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("mvy",["Macro"],[["mvy",,[[,,,,0,"File:macro/mov.asm:mvy"]]],["mvy_ptr",,[[,,,,0,"File:macro/mov.asm:mvy_ptr"]]]]);

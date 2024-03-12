@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:text/post.asm",{37:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Clear every dialog boxes.&nbsp; Call when every dialog boxes have finished displaying text.</div></div>"});

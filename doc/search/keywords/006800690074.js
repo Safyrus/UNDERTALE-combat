@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("hit",["Constant"],[["HIT",,[["EVENT",,,,0,"File:constant.asm:EVENT.HIT"]]]]);

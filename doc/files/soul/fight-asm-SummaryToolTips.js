@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:soul/fight.asm",{403:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Update variables to be able to switch to fight soul.</div></div>",443:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Check for player inputs during fight.</div></div>"});

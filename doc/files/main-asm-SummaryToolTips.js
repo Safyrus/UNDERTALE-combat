@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:main.asm",{70:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Starting point of the code after RST is done.</div></div>"});

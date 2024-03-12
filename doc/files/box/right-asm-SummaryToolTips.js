@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:box/right.asm",{302:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Perform the right side of the resizing dialog box animation.</div></div>"});

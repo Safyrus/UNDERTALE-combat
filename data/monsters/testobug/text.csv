@@ -1,0 +1,5 @@
+TXT_START_1	Testobug appear!<fp>
+TXT_START_2	A strange bug appear.<fp>
+TXT_START_3	A tree appe-<b>Oh wait,<b>that's a Testobug.<fp>
+TXT_TURN	This is Testobug<b>turn!<fp>
+TXT_EVENT	A misc event has<b>been trigger.<fp>

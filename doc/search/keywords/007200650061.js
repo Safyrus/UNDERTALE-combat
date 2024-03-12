@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("rea",["Function"],[["read_dialog",,[[,,,,0,"File:text/utils.asm:read_dialog"]]],["read_next_char",,[[,,,,0,"File:text/utils.asm:read_next_char"]]],["readjoy",,[[,,,,0,"File:joypad.asm:readjoy"]]],["readjoy_safe",,[[,,,,0,"File:joypad.asm:readjoy_safe"]]]]);

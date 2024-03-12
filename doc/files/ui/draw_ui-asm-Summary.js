@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:ui/draw_ui.asm","draw_ui.asm");NDSummary.OnSummaryLoaded("File:ui/draw_ui.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[79,0,1,"Functions","Functions"],[417,0,0,"draw_update_menu","draw_update_menu"]]);

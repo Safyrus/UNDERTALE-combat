@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AssemblyClass:PlayerStat","PlayerStat");NDSummary.OnSummaryLoaded("AssemblyClass:PlayerStat",[["Assembly","Assembly"]],[["Structs","Struct"]],[[258,0,0,"PlayerStat"]]);

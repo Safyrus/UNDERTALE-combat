@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:soul/menu.asm",{19:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Update variables to be able to switch to menu soul.</div></div>",20:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Update the player postion based on the menu.</div></div>"});

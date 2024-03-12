@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:soul/fight.asm","fight.asm");NDSummary.OnSummaryLoaded("File:soul/fight.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[344,0,1,"Functions","Functions"],[403,0,0,"switch_player_soul_to_fight","switch_player_soul_to_fight"],[443,0,0,"update_player_fight","update_player_fight"]]);

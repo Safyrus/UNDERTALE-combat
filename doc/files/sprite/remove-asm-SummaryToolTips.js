@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:sprite/remove.asm",{56:"<div class=\"NDToolTip TFile LAssembly\"><div class=\"TTSummary\">subrountines related to sprites</div></div>",58:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Remove all sprites on the screen.</div></div>"});

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("div",["Function","Variable"],[["div",,[[,,,,0,"File:utils.asm:div"]]],["divisor",,[[,,,,1,"File:memory.asm:divisor"]]]]);

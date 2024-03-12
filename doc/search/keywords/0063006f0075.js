@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("cou",["Constant"],[["counter",,[[,"MMC5 IRQ Scanline counter",,,0,"File:constant.asm:MMC5_IRQ_Scanline_counter"]]]]);

@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:box/right.asm","right.asm");NDSummary.OnSummaryLoaded("File:box/right.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[301,0,1,"Functions","Functions"],[302,0,0,"dialog_box_anim_right","dialog_box_anim_right"]]);

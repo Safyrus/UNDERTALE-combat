@@ -1,0 +1,1 @@
+﻿NDContentPage.OnToolTipsLoaded({87:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Subroutine from NesDev</div></div>"});

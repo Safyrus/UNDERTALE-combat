@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("fir",["Constant"],[["FIRST_HP_TILE",,[[,,,,0,"File:constant.asm:FIRST_HP_TILE"]]]]);

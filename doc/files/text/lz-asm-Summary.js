@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:text/lz.asm","lz.asm");NDSummary.OnSummaryLoaded("File:text/lz.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[247,0,1,"Functions","Functions"],[249,0,0,"lz_init","lz_init"],[411,0,0,"lz_decode","lz_decode"]]);

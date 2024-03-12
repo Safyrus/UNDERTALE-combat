@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("spa",["Constant"],[["SPA",,[["CHAR",,,,0,"File:constant.asm:CHAR.SPA"]]],["SPARE",,[["EVENT",,,,0,"File:constant.asm:EVENT.SPARE"]]]]);

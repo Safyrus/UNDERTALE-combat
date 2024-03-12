@@ -1,0 +1,6 @@
+.include "DialogBox.asm"
+.include "Fight.asm"
+.include "MonsterStat.asm"
+.include "MonsterCode.asm"
+.include "PlayerStat.asm"
+.include "Anim.asm"

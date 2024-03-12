@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:sprite/player.asm",{409:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Draw the player soul at the player position.</div></div>"});

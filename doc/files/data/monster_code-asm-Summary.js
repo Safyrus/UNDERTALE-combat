@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:data/monster_code.asm","monster_code.asm");NDSummary.OnSummaryLoaded("File:data/monster_code.asm",[["Assembly","Assembly"]],[["Groups","Group"],["Variables","Variable"]],[[352,0,0,"Variables","Variables"],[359,0,1,"monster_code_bnk","monster_code_bnk"],[360,0,1,"monster_code_struct","monster_code_struct"]]);

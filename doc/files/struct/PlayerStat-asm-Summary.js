@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:struct/PlayerStat.asm","PlayerStat.asm");NDSummary.OnSummaryLoaded("File:struct/PlayerStat.asm",[["Assembly","Assembly"]],[["Structs","Struct"]],[[258,0,0,"PlayerStat","PlayerStat"]]);

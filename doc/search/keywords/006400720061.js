@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("dra",["Function"],[["draw_dialog_box",,[[,,,,0,"File:init/draw_db.asm:draw_dialog_box"]]],["draw_hitmark",,[[,,,,0,"File:sprite/hitmark.asm:draw_hitmark"]]],["draw_player",,[[,,,,0,"File:sprite/player.asm:draw_player"]]],["draw_UI",,[[,,,,0,"File:init/draw_ui.asm:draw_UI"]]],["draw_update_menu",,[[,,,,0,"File:ui/draw_ui.asm:draw_update_menu"]]]]);

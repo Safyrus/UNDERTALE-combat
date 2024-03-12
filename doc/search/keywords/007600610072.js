@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("var",["Constant"],[["VAR_RAM_BNK",,[[,,,,0,"File:constant.asm:VAR_RAM_BNK"]]]]);

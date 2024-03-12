@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("fnt",["Constant"],[["FNT",,[["CHAR",,,,0,"File:constant.asm:CHAR.FNT"]]]]);

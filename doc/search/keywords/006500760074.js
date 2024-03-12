@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("evt",["Constant"],[["EVT",,[["CHAR",,,,0,"File:constant.asm:CHAR.EVT"]]]]);

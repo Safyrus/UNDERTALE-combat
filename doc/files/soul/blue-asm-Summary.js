@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:soul/blue.asm","blue.asm");NDSummary.OnSummaryLoaded("File:soul/blue.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[21,0,1,"Functions","Functions"],[22,0,0,"switch_player_soul_to_blue","switch_player_soul_to_blue"],[298,0,0,"update_player_blue","update_player_blue"]]);

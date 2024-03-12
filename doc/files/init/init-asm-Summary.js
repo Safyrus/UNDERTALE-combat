@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:init/init.asm","init.asm");NDSummary.OnSummaryLoaded("File:init/init.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[422,0,1,"Functions","Functions"],[423,0,0,"INIT","INIT"]]);

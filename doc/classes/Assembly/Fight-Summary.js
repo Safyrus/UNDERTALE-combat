@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AssemblyClass:Fight","Fight");NDSummary.OnSummaryLoaded("AssemblyClass:Fight",[["Assembly","Assembly"]],[["Constants","Constant"],["Groups","Group"],["Structs","Struct"]],[[341,0,2,"Fight"],[342,0,1,"Constants","Constants"],[343,0,0,"FIGHT_SHIFT","FIGHT_SHIFT"]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("fon",["Constant"],[["FONT_CHR_BNK",,[[,,,,0,"File:constant.asm:FONT_CHR_BNK"]]]]);

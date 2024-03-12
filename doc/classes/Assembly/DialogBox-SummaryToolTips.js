@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("AssemblyClass:DialogBox",{90:"<div class=\"NDToolTip TConstant LAssembly\"><div class=\"TTSummary\">size of struct DialogBox in power of 2</div></div>"});

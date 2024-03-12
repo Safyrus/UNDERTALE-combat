@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("nam",["Constant"],[["NAM",,[["CHAR",,,,0,"File:constant.asm:CHAR.NAM"]]],["Nametable",,[[,"MMC5 Fill nametable registers",,,0,"File:constant.asm:MMC5_Fill_nametable_registers"],[,"MMC5 Nametable mapping",,,0,"File:constant.asm:MMC5_Nametable_mapping"],[,"PPU Nametable addresses",,,0,"File:constant.asm:PPU_Nametable_addresses"]]]]);

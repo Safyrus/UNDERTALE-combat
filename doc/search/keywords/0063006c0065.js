@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("cle",["Constant","File","Function"],[["CLEAR",,[[,"CLEAR TILE",,,0,"File:constant.asm:CLEAR_TILE"]]],["clear_nt",,[[,,,,1,"File:init/clear_nt.asm:clear_nt"]]],["clear_nt_all_raw",,[[,,,,2,"File:init/clear_nt.asm:clear_nt_all_raw"]]]]);

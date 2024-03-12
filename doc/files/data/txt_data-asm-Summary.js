@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:data/txt_data.asm","txt_data.asm");NDSummary.OnSummaryLoaded("File:data/txt_data.asm",[["Assembly","Assembly"]],[["Groups","Group"],["Variables","Variable"]],[[230,0,0,"Variables","Variables"],[244,0,1,"lz_bnk_table","lz_bnk_table"],[245,0,1,"lz_bnk_table","lz_bnk_table(2)"],[246,0,1,"lz_bnk_table","lz_bnk_table(3)"]]);

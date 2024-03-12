@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ini",["Function"],[["INIT",,[[,,,,0,"File:init/init.asm:INIT"]]],["init_pal",,[[,,,,0,"File:init/palette.asm:init_pal"]]]]);

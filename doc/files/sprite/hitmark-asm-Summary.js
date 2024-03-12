@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:sprite/hitmark.asm","hitmark.asm");NDSummary.OnSummaryLoaded("File:sprite/hitmark.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[333,0,1,"Functions","Functions"],[449,0,0,"draw_hitmark","draw_hitmark"]]);

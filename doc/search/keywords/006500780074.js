@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ext",["Constant"],[["EXT",,[["CHAR",,,,0,"File:constant.asm:CHAR.EXT"]]],["Extended",,[[,"MMC5 Extended RAM mode",,,0,"File:constant.asm:MMC5_Extended_RAM_mode"]]]]);

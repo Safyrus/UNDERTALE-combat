@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("add",["Macro","Constant"],[["add_A2ptr",,[[,,,,0,"File:macro/math.asm:add_A2ptr"]]],["address",,[[,"APU start address",,,1,"File:constant.asm:APU_start_address"]]],["addresses",,[[,"PPU Nametable addresses",,,1,"File:constant.asm:PPU_Nametable_addresses"]]]]);

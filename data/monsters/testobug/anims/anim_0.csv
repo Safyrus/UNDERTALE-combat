@@ -1,0 +1,5 @@
+img,name,bkg_or_spr,pos_x,pos_y,duration_time,next_name,atr_if_spr,move_if_spr
+bkg_1.png,bkg_1,background,-8,0,60,bkg_2
+bkg_2.png,bkg_2,background,-8,0,60,bkg_1
+spr.png,spr_0,sprite,20,8,10,spr_1,,
+spr_v.png,spr_1,sprite,20,8,10,spr_0,,,

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("mul",["Constant"],[["multiplier",,[[,"MMC5 multiplier registers",,,0,"File:constant.asm:MMC5_multiplier_registers"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ora",["Macro"],[["ora_adr",,[[,,,,0,"File:macro/bool.asm:ora_adr"]]]]);

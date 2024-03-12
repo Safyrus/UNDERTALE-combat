@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sca",["Variable","Constant"],[["Scanline",,[[,"scanline",,,0,"File:memory.asm:scanline"],[,"MMC5 IRQ Scanline counter",,,1,"File:constant.asm:MMC5_IRQ_Scanline_counter"]]]]);

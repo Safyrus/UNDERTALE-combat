@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("jum",["Constant"],[["JUMP_FORCE",,[[,,,,0,"File:constant.asm:JUMP_FORCE"]]],["JUMP_GRAVITY",,[[,,,,0,"File:constant.asm:JUMP_GRAVITY"]]]]);

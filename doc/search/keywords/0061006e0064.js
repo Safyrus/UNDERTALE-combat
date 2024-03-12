@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("and",["Macro"],[["and_adr",,[[,,,,0,"File:macro/bool.asm:and_adr"]]]]);

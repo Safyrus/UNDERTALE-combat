@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("chr",["Constant"],[["CHR",,[["CHAR",,,,0,"File:constant.asm:CHAR.CHR"],[,"MMC5 CHR banking mode",,,0,"File:constant.asm:MMC5_CHR_banking_mode"],[,"MMC5 CHR banks control registers",,,0,"File:constant.asm:MMC5_CHR_banks_control_registers"]]]]);

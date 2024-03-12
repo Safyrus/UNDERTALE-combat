@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("exp",["Constant"],[["Expansion",,[[,"MMC5 Expansion RAM",,,0,"File:constant.asm:MMC5_Expansion_RAM"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:data/fights.asm",{356:"<div class=\"NDToolTip TVariable LAssembly\"><div id=\"NDPrototype356\" class=\"NDPrototype\"><div class=\"PSection PPlainSection\">fights:</div></div><div class=\"TTSummary\">List of 256 Fight structures.&nbsp; The index in the array is the ID of the fight.</div></div>"});

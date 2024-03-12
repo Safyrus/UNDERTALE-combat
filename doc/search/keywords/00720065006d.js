@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("rem",["Function"],[["remove_all_spr",,[[,,,,0,"File:sprite/remove.asm:remove_all_spr"]]]]);

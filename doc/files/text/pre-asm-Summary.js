@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:text/pre.asm","pre.asm");NDSummary.OnSummaryLoaded("File:text/pre.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[71,0,1,"Functions","Functions"],[72,0,0,"new_dialog_box","new_dialog_box"],[25,0,0,"text_pre_process","text_pre_process"]]);

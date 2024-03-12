@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:struct/MonsterStat.asm",{349:"<div class=\"NDToolTip TConstant LAssembly\"><div class=\"TTSummary\">size of struct MonsterStat in power of 2</div></div>"});

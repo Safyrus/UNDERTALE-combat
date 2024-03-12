@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("cus",["Constant"],[["CUSTOM",,[["EVENT",,,,0,"File:constant.asm:EVENT.CUSTOM"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("bkg",["Constant"],[["BKG",,[["CHAR",,,,0,"File:constant.asm:CHAR.BKG"]]]]);

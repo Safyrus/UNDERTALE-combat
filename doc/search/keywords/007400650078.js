@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("tex",["Constant","Function"],[["TEXT_BUF_BNK",,[[,,,,0,"File:constant.asm:TEXT_BUF_BNK"]]],["text_post_process",,[[,,,,1,"File:text/post.asm:text_post_process"]]],["text_pre_process",,[[,,,,1,"File:text/pre.asm:text_pre_process"]]],["text_process",,[[,,,,1,"File:text/process.asm:text_process"]]]]);

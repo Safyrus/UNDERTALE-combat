@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:sprite/remove.asm","remove.asm");NDSummary.OnSummaryLoaded("File:sprite/remove.asm",[["Assembly","Assembly"]],[["Files","File"],["Functions","Function"],["Groups","Group"]],[[56,0,0,"sprite","sprite"],[57,0,2,"Functions","Functions"],[58,0,1,"remove_all_spr","remove_all_spr"]]);

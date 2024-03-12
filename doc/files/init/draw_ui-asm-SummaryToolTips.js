@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:init/draw_ui.asm",{60:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Draw the UI /!\\ rendering must be disable /!\\</div></div>"});

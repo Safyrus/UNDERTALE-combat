@@ -1,0 +1,1 @@
+﻿NDMenu.OnSectionLoaded("classes.js",[[1,"DialogBox"],[1,"Fight"],[1,"MonsterCode"],[1,"MonsterStat"],[1,"PlayerStat"]]);

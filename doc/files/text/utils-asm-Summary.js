@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:text/utils.asm","utils.asm");NDSummary.OnSummaryLoaded("File:text/utils.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[24,0,1,"Functions","Functions"],[26,0,0,"read_next_char","read_next_char"],[252,0,0,"read_dialog","read_dialog"]]);

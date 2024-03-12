@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:soul/wait.asm","wait.asm");NDSummary.OnSummaryLoaded("File:soul/wait.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[297,0,1,"Functions","Functions"],[445,0,0,"switch_player_soul_to_wait","switch_player_soul_to_wait"],[23,0,0,"update_player_wait","update_player_wait"]]);

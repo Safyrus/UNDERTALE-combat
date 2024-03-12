@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("spr",["File"],[["sprite",,[[,,,,0,"File:sprite/remove.asm:sprite"]]]]);

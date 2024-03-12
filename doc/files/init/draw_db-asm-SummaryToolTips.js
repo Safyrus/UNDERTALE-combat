@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:init/draw_db.asm",{69:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Draw the dialog box /!\\ rendering must be disable /!\\</div></div>"});

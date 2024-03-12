@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("noi",["Constant"],[["noise",,[[,"APU noise channel registers",,,0,"File:constant.asm:APU_noise_channel_registers"]]]]);

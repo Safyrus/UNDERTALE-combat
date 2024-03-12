@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("but",["Constant"],[["Button",,[[,"Button masks",,,0,"File:constant.asm:Button_masks"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:text/pre.asm",{72:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Create a new DialogBox and add it to dialog_boxs.</div></div>",25:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Create every dialog boxes.&nbsp; Called first when the game want to read and display text.</div></div>"});

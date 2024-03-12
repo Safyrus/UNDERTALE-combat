@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ui_",["Constant"],[["UI_CHR_BNK",,[[,,,,0,"File:constant.asm:UI_CHR_BNK"]]]]);

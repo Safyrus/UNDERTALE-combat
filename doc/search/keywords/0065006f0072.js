@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("eor",["Macro"],[["eor_adr",,[[,,,,0,"File:macro/bool.asm:eor_adr"]]]]);

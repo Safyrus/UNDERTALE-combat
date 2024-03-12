@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("cen",["Function"],[["center_player",,[[,,,,0,"File:player.asm:center_player"]]]]);

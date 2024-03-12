@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("mus",["Constant"],[["MUS",,[["CHAR",,,,0,"File:constant.asm:CHAR.MUS"]]]]);

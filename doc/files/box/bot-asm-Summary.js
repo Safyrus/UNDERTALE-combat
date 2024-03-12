@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:box/bot.asm","bot.asm");NDSummary.OnSummaryLoaded("File:box/bot.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[313,0,1,"Functions","Functions"],[314,0,0,"dialog_box_anim_bot","dialog_box_anim_bot"]]);

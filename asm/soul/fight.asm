@@ -1,0 +1,163 @@
+;--------------------------------
+; Subroutine: switch_player_soul_to_fight
+;--------------------------------
+;
+; Update variables to be able to switch to fight soul.
+;
+;--------------------------------
+switch_player_soul_to_fight:
+    ; change soul color to red
+    mov palettes+15, #$16
+    ora_adr nmi_flags, #NMI_PLT
+    ; move player off screen
+    LDA #$FF
+    STA player_x
+    STA player_y
+    ; init fight timer to 127
+    LDA #$7F
+    STA fight_timer
+    ; damage done = 0
+    mov fight_damage, #0
+    ; marker pos = 0
+    STA fight_markpos
+    ; make input take time
+    mov btn_timer_var, #BTN_TIMER / 2
+    STA btn_1_timer
+    ; find and display atk_img
+    LDA #<ANIM_DATA_MONSTERS_ATKIMG_L
+    STA tmp+0
+    LDA #>ANIM_DATA_MONSTERS_ATKIMG_L
+    STA tmp+1
+    LDX #$10
+    LDY #$88
+    JSR draw_bkg_img
+    ; (right part)
+    LDA #<ANIM_DATA_MONSTERS_ATKIMG_R
+    STA tmp+0
+    LDA #>ANIM_DATA_MONSTERS_ATKIMG_R
+    STA tmp+1
+    LDX #$80
+    LDY #$88
+    JSR draw_bkg_img
+    ; do not draw the player
+    and_adr player_flag, #$FF - PLAYER_FLAG_DRAW_PLAYER
+    ; return
+    RTS
+
+
+;--------------------------------
+; Subroutine: update_player_fight
+;--------------------------------
+;
+; Check for player inputs during fight.
+;
+;--------------------------------
+update_player_fight:
+    PHA
+
+    ; if fight_timer == 0
+    LDA fight_timer
+    ; call monster hit event
+    BEQ @event
+
+    ; fight_timer--
+    DEC fight_timer
+    ; fight_markpos++
+    INC fight_markpos
+    INC fight_markpos
+
+    JSR draw_hitmark
+
+    ; if A is pressed
+    LDA btn_1
+    AND #%10000000
+    BEQ @end
+
+        @hit:
+        ; fight_timer = 0
+        STA fight_timer
+        ; damage = 1
+        JSR update_damage
+
+        @event:
+        ; call monster hit event
+        phx
+        mvx cur_monster_fight_pos, fight_monster
+        LDA #EVENT::HIT
+        STA monster_events, X
+        plx
+        ; switch to wait soul
+        mov player_soul, #SOUL::WAIT
+        JSR switch_player_soul
+
+    ; return
+    @end:
+    PLA
+    RTS
+
+
+
+update_damage:
+    push_ax
+
+    ; damage = atk - def
+    LDA player_stats + PlayerStat::atk
+    sub player_stats + PlayerStat::def
+    ; if underflow or damage == 0 then damage = 1
+    BCS :+
+        LDA #$01
+    :
+    BNE :+
+        LDA #$01
+    :
+    STA fight_damage
+
+    ; if markpos < center
+    LDA fight_markpos
+    BMI :+
+        ; dist = center - fight_markpos - 1
+        LDA #$80
+        CLC
+        SBC fight_markpos
+        JMP :++
+    ; else
+    :
+        ; dist = fight_markpos - center
+        sub #$80
+    :
+    ; dist = 15 - (dist >> 3)
+    shift LSR, 3
+    STA fight_markpos
+    LDA #15
+    sub fight_markpos
+    TAX
+
+    ; damage *= 2
+    LDA fight_damage
+    ASL
+    ; if overflow
+    CMP fight_damage
+    bge :+
+        ; damage = $FF
+        LDA #$FF
+    :
+
+    ; damage *= dist
+    STA MMC5_MUL_A
+    STX MMC5_MUL_B
+    ; if damage > 255
+    LDA MMC5_MUL_B
+    BEQ :+
+        ; damage = 255
+        LDA #$FF
+        JMP :++
+    ; else
+    :
+        ; damage >>= 3
+        LDA MMC5_MUL_A
+        shift LSR, 3
+    :
+    STA fight_damage
+
+    pull_ax
+    RTS

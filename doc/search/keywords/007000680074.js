@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("pht",["Constant"],[["PHT",,[["CHAR",,,,0,"File:constant.asm:CHAR.PHT"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("pro",["Constant"],[["protection",,[[,"MMC5 RAM protection registers",,,0,"File:constant.asm:MMC5_RAM_protection_registers"]]]]);

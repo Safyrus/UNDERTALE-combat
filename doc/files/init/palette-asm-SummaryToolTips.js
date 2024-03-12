@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:init/palette.asm",{77:"<div class=\"NDToolTip TFile LAssembly\"><div class=\"TTSummary\">subrountines related to changing palettes</div></div>",80:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">initialize background and sprite palettes to default values.</div></div>"});

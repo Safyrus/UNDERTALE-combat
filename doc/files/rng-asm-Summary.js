@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:rng.asm","rng.asm");NDSummary.OnSummaryLoaded("File:rng.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[250,0,1,"Functions","Functions"],[253,0,0,"rng","rng"]]);

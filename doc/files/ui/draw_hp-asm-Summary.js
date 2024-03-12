@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:ui/draw_hp.asm","draw_hp.asm");NDSummary.OnSummaryLoaded("File:ui/draw_hp.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[325,0,1,"Functions","Functions"],[446,0,0,"update_player_hp","update_player_hp"]]);

@@ -1,0 +1,3 @@
+img,name,bkg_or_spr,pos_x,pos_y,duration_time,next_name,atr_if_spr,move_if_spr
+atk_img_left.png,atkimg_l,background_color,0,0,0
+atk_img_right.png,atkimg_r,background_color,112,0,0

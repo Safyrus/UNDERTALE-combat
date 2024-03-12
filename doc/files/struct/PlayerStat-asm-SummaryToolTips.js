@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:struct/PlayerStat.asm",{});

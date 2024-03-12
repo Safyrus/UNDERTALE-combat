@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:text/lz.asm",{249:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Initialize variables lz_in_bnk and lz_in for lz_decode to work on correct data.</div></div>",411:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Decode a lz encoded block/text and save the result into ram.</div></div>"});

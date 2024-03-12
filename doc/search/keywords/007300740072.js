@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("str",["Variable"],[["str_buf",,[[,,,,0,"File:memory.asm:str_buf"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("jmp",["Constant"],[["JMP",,[["CHAR",,,,0,"File:constant.asm:CHAR.JMP"]]]]);

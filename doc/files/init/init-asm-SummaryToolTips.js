@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:init/init.asm",{423:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Part of main. Called once at the start of the game.</div></div>"});

@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:text/post.asm","post.asm");NDSummary.OnSummaryLoaded("File:text/post.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[36,0,1,"Functions","Functions"],[37,0,0,"text_post_process","text_post_process"]]);

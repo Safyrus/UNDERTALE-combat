@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("pal",["File","Variable"],[["palette",,[[,,,,0,"File:init/palette.asm:palette"]]],["palettes",,[[,,,,1,"File:memory.asm:palettes"]]]]);

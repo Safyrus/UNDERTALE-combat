@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:struct/MonsterStat.asm","MonsterStat.asm");NDSummary.OnSummaryLoaded("File:struct/MonsterStat.asm",[["Assembly","Assembly"]],[["Constants","Constant"],["Groups","Group"],["Structs","Struct"]],[[347,0,2,"MonsterStat","MonsterStat"],[348,0,1,"Constants","MonsterStat.Constants"],[349,0,0,"MONSTER_STAT_SHIFT","MonsterStat.MONSTER_STAT_SHIFT"]]);

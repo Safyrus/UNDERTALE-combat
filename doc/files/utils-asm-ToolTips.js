@@ -1,0 +1,1 @@
+﻿NDContentPage.OnToolTipsLoaded({331:"<div class=\"NDToolTip TVariable LAssembly\"><div id=\"NDPrototype331\" class=\"NDPrototype\"><div class=\"PSection PPlainSection\">divisor: .res <span class=\"SHNumber\">1</span></div></div><div class=\"TTSummary\">use in div</div></div>"});

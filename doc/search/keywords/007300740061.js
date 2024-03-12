@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sta",["Macro","File","Constant"],[["sta_ptr",,[[,,,,0,"File:macro/mov.asm:sta_ptr"]]],["Stack",,[[,"Macro - Stack",,"macro-stack",1,"File:macro/stack.asm:Macro-Stack"]]],["start",,[["EVENT","START",,,2,"File:constant.asm:EVENT.START"],[,"APU start address",,,2,"File:constant.asm:APU_start_address"]]]]);

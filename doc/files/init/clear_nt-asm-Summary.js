@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:init/clear_nt.asm","clear_nt.asm");NDSummary.OnSummaryLoaded("File:init/clear_nt.asm",[["Assembly","Assembly"]],[["Files","File"],["Functions","Function"],["Groups","Group"]],[[82,0,0,"clear_nt","clear_nt"],[83,0,2,"Functions","Functions"],[84,0,1,"clear_nt_all_raw","clear_nt_all_raw"]]);

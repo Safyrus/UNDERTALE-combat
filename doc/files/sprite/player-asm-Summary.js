@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:sprite/player.asm","player.asm");NDSummary.OnSummaryLoaded("File:sprite/player.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[66,0,1,"Functions","Functions"],[409,0,0,"draw_player","draw_player"]]);

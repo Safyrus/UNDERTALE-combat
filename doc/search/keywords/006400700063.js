@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("dpc",["Constant"],[["DPCM",,[[,"APU DPCM channel registers",,,0,"File:constant.asm:APU_DPCM_channel_registers"]]]]);

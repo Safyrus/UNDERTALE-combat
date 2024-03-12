@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("pus",["Macro"],[["push",,[[,,,,0,"File:macro/stack.asm:push"]]],["push_ax",,[[,,,,0,"File:macro/stack.asm:push_ax"]]],["push_ay",,[[,,,,0,"File:macro/stack.asm:push_ay"]]],["pushregs",,[[,,,,0,"File:macro/stack.asm:pushregs"]]]]);

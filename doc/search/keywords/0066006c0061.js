@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("fla",["Constant"],[["flags",,[[,"NMI vector control flags",,,0,"File:constant.asm:NMI_vector_control_flags"],[,"PPU Control register flags",,,0,"File:constant.asm:PPU_Control_register_flags"],[,"PPU Mask register flags",,,0,"File:constant.asm:PPU_Mask_register_flags"]]]]);

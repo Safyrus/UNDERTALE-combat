@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("nex",["Variable"],[["next_char_ptr",,[[,,,,0,"File:memory.asm:next_char_ptr"]]]]);

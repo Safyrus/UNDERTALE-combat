@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:soul/red.asm",{34:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Update variables to be able to switch to red soul.</div></div>",293:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Update the player postion based on the d-pad.</div></div>"});

@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:rng.asm",{253:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">From: https://&#8203;www&#8203;.nesdev&#8203;.org&#8203;/wiki&#8203;/Random_number_generator</div></div>"});

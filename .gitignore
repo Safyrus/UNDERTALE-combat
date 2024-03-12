@@ -1,0 +1,17 @@
+# NES
+*.dbg
+*.deb
+
+# VSCode
+*.vscode/
+*.VSCodeCounter/
+
+# Python
+*__pycache__/
+
+# Other files
+*ignore/
+*TMP.chr
+*ANIM.chr
+nesfile.png
+*.tags

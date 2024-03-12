@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AssemblyClass:MonsterCode","MonsterCode");NDSummary.OnSummaryLoaded("AssemblyClass:MonsterCode",[["Assembly","Assembly"]],[["Constants","Constant"],["Groups","Group"],["Structs","Struct"]],[[397,0,2,"MonsterCode"],[345,0,1,"Constants","Constants"],[346,0,0,"MONSTER_CODE_SHIFT","MONSTER_CODE_SHIFT"]]);

@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:ui/draw_ui.asm",{417:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Update the highlight on the main menu.</div></div>"});

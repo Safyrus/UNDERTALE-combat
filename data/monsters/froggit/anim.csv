@@ -1,0 +1,2 @@
+img,name,bkg_or_spr,pos_x,pos_y,duration_time,next_name,atr_if_spr,move_if_spr
+froggit.png,froggit_bkg,background,0,0,0

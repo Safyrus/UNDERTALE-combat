@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("val",["Constant"],[["values",,[["DialogBox","Default DialobBox values",,,0,"File:struct/DialogBox.asm:DialogBox.Default_DialobBox_values","AssemblyClass:DialogBox:Default_DialobBox_values"]]]]);

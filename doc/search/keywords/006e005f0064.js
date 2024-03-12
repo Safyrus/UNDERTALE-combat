@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("n_d",["Variable"],[["n_dialog",,[[,,,,0,"File:memory.asm:n_dialog"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("vec",["Constant"],[["vector",,[[,"NMI vector control flags",,,0,"File:constant.asm:NMI_vector_control_flags"]]]]);

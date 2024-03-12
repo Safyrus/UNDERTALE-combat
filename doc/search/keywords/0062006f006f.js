@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("boo",["File"],[["boolean",,[[,"Macro - boolean",,"macro-boolean",0,"File:macro/bool.asm:Macro-boolean"]]]]);

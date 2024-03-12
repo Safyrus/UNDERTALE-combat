@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:init/palette.asm","palette.asm");NDSummary.OnSummaryLoaded("File:init/palette.asm",[["Assembly","Assembly"]],[["Files","File"],["Functions","Function"],["Groups","Group"]],[[77,0,0,"palette","palette"],[78,0,2,"Functions","Functions"],[80,0,1,"init_pal","init_pal"]]);

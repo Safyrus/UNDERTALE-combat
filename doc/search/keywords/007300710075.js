@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("squ",["Constant"],[["square",,[[,"APU square 1 channel registers",,,0,"File:constant.asm:APU_square_1_channel_registers"],[,"APU square 2 channel registers",,,0,"File:constant.asm:APU_square_2_channel_registers"]]]]);

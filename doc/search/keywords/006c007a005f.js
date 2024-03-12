@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("lz_",["Variable","Function"],[["lz_bnk_table",,[[,,,,0,"File:data/txt_data.asm:lz_bnk_table"]]],["lz_decode",,[[,,,,1,"File:text/lz.asm:lz_decode"]]],["lz_in",,[[,,,,0,"File:memory.asm:lz_in"]]],["lz_init",,[[,,,,1,"File:text/lz.asm:lz_init"]]]]);

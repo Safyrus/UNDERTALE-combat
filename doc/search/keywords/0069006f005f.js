@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("io_",["Constant"],[["IO_JOY1",,[[,,,,0,"File:constant.asm:IO_JOY1"]]],["IO_JOY2",,[[,,,,0,"File:constant.asm:IO_JOY2"]]]]);

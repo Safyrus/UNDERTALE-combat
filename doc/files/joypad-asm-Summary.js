@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:joypad.asm","joypad.asm");NDSummary.OnSummaryLoaded("File:joypad.asm",[["Assembly","Assembly"]],[["Files","File"],["Functions","Function"],["Groups","Group"]],[[85,0,0,"Joypad","Joypad"],[86,0,2,"Functions","Functions"],[87,0,1,"readjoy","readjoy"],[451,0,1,"readjoy_safe","readjoy_safe"],[88,0,1,"update_input","update_input"]]);

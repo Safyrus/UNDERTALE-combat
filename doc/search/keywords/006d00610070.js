@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("map",["Constant"],[["mapping",,[[,"MMC5 Nametable mapping",,,0,"File:constant.asm:MMC5_Nametable_mapping"]]]]);

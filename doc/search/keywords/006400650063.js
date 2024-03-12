@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("dec",["Macro"],[["dec_16",,[[,,,,0,"File:macro/math.asm:dec_16"]]]]);

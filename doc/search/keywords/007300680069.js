@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("shi",["Macro"],[["shift",,[[,,,,0,"File:macro/bool.asm:shift"]]]]);

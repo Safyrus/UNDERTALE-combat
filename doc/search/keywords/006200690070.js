@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("bip",["Constant"],[["BIP",,[["CHAR",,,,0,"File:constant.asm:CHAR.BIP"]]]]);

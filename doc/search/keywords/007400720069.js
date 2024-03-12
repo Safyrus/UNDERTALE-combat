@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("tri",["Constant"],[["triangle",,[[,"APU triangle channel registers",,,0,"File:constant.asm:APU_triangle_channel_registers"]]]]);

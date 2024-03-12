@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("to_",["Macro"],[["to_x_dec",,[[,,,,0,"File:macro/loop.asm:to_x_dec"]]],["to_x_inc",,[[,,,,0,"File:macro/loop.asm:to_x_inc"]]],["to_y_dec",,[[,,,,0,"File:macro/loop.asm:to_y_dec"]]]]);

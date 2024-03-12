@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:init/draw_db.asm","draw_db.asm");NDSummary.OnSummaryLoaded("File:init/draw_db.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[61,0,1,"Functions","Functions"],[69,0,0,"draw_dialog_box","draw_dialog_box"]]);

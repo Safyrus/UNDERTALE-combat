@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:data/monster_stats.asm",{73:"<div class=\"NDToolTip TVariable LAssembly\"><div id=\"NDPrototype73\" class=\"NDPrototype\"><div class=\"PSection PPlainSection\">monster_stats_data:</div></div><div class=\"TTSummary\">List of 256 MonsterStats structures.&nbsp; The index in the array is the ID of the monster.</div></div>"});

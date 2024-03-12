@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("mas",["Constant"],[["Mask",,[[,"PPU Mask register flags",,,0,"File:constant.asm:PPU_Mask_register_flags"]]],["masks",,[[,"Button masks",,,0,"File:constant.asm:Button_masks"]]]]);

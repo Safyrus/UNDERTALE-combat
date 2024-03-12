@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("atr",["Variable"],[["atr_nametable",,[[,,,,0,"File:memory.asm:atr_nametable"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:sprite/hitmark.asm",{449:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Draw the marker during attack.</div></div>"});

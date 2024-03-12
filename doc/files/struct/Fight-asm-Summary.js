@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:struct/Fight.asm","Fight.asm");NDSummary.OnSummaryLoaded("File:struct/Fight.asm",[["Assembly","Assembly"]],[["Constants","Constant"],["Groups","Group"],["Structs","Struct"]],[[341,0,2,"Fight","Fight"],[342,0,1,"Constants","Fight.Constants"],[343,0,0,"FIGHT_SHIFT","Fight.FIGHT_SHIFT"]]);

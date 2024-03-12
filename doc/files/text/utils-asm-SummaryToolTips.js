@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:text/utils.asm",{26:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Read the next character in text data.</div></div>",252:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Init next_char_ptr and call text_pre_process.&nbsp; LZ decode text if needed (with lz_init and lz_decode).</div></div>"});

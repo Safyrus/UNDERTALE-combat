@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("fut",["Variable"],[["futur_box_pos_x1",,[[,,,,0,"File:memory.asm:futur_box_pos_x1"]]],["futur_box_pos_x2",,[[,,,,0,"File:memory.asm:futur_box_pos_x2"]]],["futur_box_pos_y1",,[[,,,,0,"File:memory.asm:futur_box_pos_y1"]]],["futur_box_pos_y2",,[[,,,,0,"File:memory.asm:futur_box_pos_y2"]]]]);

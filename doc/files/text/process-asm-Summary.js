@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:text/process.asm","process.asm");NDSummary.OnSummaryLoaded("File:text/process.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[74,0,1,"Functions","Functions"],[75,0,0,"print","print"],[76,0,0,"text_process","text_process"]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("joy",["File","Constant"],[["Joypad",,[[,,,,0,"File:joypad.asm:Joypad"],[,"Joypad registers",,,1,"File:constant.asm:Joypad_registers"]]]]);
