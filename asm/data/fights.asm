@@ -12,7 +12,7 @@
 ;--------------------------------
 fights:
     .byte $03, $00, $00, $00 ; fight 0
-    .byte $02, $01, $02, $00 ; fight 1
+    .byte $01, $02, $00, $00 ; fight 1
 
     ; unused data
     .repeat 254

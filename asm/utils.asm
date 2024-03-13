@@ -99,6 +99,25 @@ xy_2_ppu:
     TYA
     shift LSR, 3
     TAY
+
+
+;--------------------------------
+; Subroutine: xytile_2_ppu
+;--------------------------------
+;
+; Transform an xy tile position into a ppu address.
+;
+; Parameters:
+; X - x position
+; Y - y position
+;
+; Return:
+; tmp - ppu address
+;
+; /!\ does not save registers /!\
+;
+;--------------------------------
+xytile_2_ppu:
     ; compute ppu adr (hi)
     TYA
     shift LSR, 3

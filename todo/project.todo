@@ -10,6 +10,8 @@ Projects:
         ✔ ACT @done(24-02-20)
         ✔ ITEM @done(24-03-11 03:35)
         ☐ Game Over
+        ☐ Win text
+        ☐ Damage animation
     Sound:
         ✔ setup Famistudio @done(24-03-11 05:50)
         ✔ setup Famistudio (More than 8KB of musics) @done(24-03-11 11:23)
@@ -18,8 +20,6 @@ Projects:
         ☐ MUS control char
         ☐ SND control char
         ☐ BIP control char
-        ☐ music
-        ☐ sound
     Souls:
         ✔ Menu @done(24-01-24 13:58)
         ✔ Red @done(24-01-24 13:59)

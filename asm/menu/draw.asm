@@ -1,6 +1,5 @@
 draw_menu:
-    ; TODO: make sure clearing the dialog box is done before drawing text
-    JSR clear_inside_box
+    JSR clear_main_box
     ;
     LDX menu_size
     DEX

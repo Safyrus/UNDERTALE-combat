@@ -40,8 +40,8 @@ menu_go_item_choice:
     ; find_item(id)
     plx
     JSR find_item
-    ; clear_inside_box()
-    JSR clear_inside_box
+    ; clear_main_box()
+    JSR clear_main_box
     ; switch player to wait soul and return
     mov player_soul, #SOUL::WAIT
     JMP switch_player_soul
@@ -122,14 +122,22 @@ menu_go_item:
 
 
 menu_go_act_monster_choice:
+    ; act_choice = X
+    STX act_choice
     ; act event
     LDA #EVENT::ACT
-    STA monster_events, X
-    ; reset menu
-    JMP menu_init
+    LDY selected_monster
+    STA monster_events, Y
+    ; clear_main_box()
+    JSR clear_main_box
+    ; change soul to wait
+    mov player_soul, #SOUL::WAIT
+    JMP switch_player_soul
 
 
 menu_go_act_monster:
+    ; selected_monster = X
+    STX selected_monster
     ; skip if act size == 0
     LDA monster_act_str_size, X
     BNE :+
@@ -187,12 +195,9 @@ menu_go_main:
     ;
     JSR update_player_menu_pos
     ;
-    JSR clear_inside_box
+    JSR clear_main_box
     ;
-    LDA menu_dialog_flag
-    BEQ :+
-        JSR menu_update_dialog
-    :
+    JSR menu_update_dialog
     ;
     JMP draw_update_menu
 
@@ -251,13 +256,16 @@ menu_go_spare:
     STA monster_events+0
     STA monster_events+1
     STA monster_events+2
-    ; reset menu
-    JMP menu_init
+    ; clear_main_box()
+    JSR clear_main_box
+    ; change soul to wait
+    mov player_soul, #SOUL::WAIT
+    JMP switch_player_soul
 
 
 menu_go_fight_monster:
     ; save choosen monster
-    STX fight_monster
+    STX selected_monster
     ; switch player to fight soul and return
     mov player_soul, #SOUL::FIGHT
     JMP switch_player_soul

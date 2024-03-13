@@ -61,7 +61,7 @@ update_player_menu:
     ; start
     LSR
     BCC :+
-        JSR clear_inside_box
+        JSR clear_main_box
         JSR text_post_process
         mov player_soul, #SOUL::RED
         JSR switch_player_soul

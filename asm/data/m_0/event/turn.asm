@@ -6,7 +6,7 @@ m_0_turn:
     LDA cur_monster_fight_pos
     BEQ :+
         ; return
-        JMP @clear_event
+        JMP @end_event
     :
 
     ; switch monster_vars[X][0]
@@ -22,7 +22,7 @@ m_0_turn:
         ; turn state++
         INC @turn_stat ,  X
         ; switch to red soul
-        JSR clear_inside_box
+        JSR clear_main_box
         JSR text_post_process
         mov player_soul ,  #SOUL::RED
         JSR switch_player_soul
@@ -113,5 +113,5 @@ m_0_turn:
             JSR clear_hitbox
     @case2end:
     ; default
-        @clear_event:
-        JMP m_0_clear_event
+        @end_event:
+        JMP clear_event

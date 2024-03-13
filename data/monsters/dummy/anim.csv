@@ -1,0 +1,2 @@
+img,name,bkg_or_spr,pos_x,pos_y,duration_time,next_name,atr_if_spr,move_if_spr
+dummy_0.png,normal,background,-16,32,0

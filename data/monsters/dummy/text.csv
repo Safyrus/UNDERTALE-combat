@@ -1,0 +1,7 @@
+TXT_DUMMY_RND_1	* Dummy looks like it's<b>  going to fall over.<fp>
+TXT_DUMMY_RND_2	* Dummy stands around<b>  absentmindedly.<fp>
+TXT_DUMMY_TIRED	* Dummy tires of your<b>  aimless shenanigans.<p>
+TXT_DUMMY_CHECK	* DUMMY - ATK 0 DEF 0<wait:30><b>* A cotton heart and a<b>  button eye<p>* You are the apple of my<b>  eye<p><fp>
+TXT_DUMMY_ACT_TALK	* You talk to the DUMMY.<wait:60><b>* ...<p>* It doesn't seem much for<b>  conversation.<p>* TORIEL seems happy with<b>  you.<p><fp>
+TXT_DUMMY_START	* You encountered the Dummy.<fp>
+TXT_DUMMY_FIGHT	<fp><pos:20,8><speed:30>......<fp>

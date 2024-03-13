@@ -82,10 +82,12 @@ update_player_fight:
         @event:
         ; call monster hit event
         phx
-        mvx cur_monster_fight_pos, fight_monster
+        mvx cur_monster_fight_pos, selected_monster
         LDA #EVENT::HIT
         STA monster_events, X
         plx
+        ; clear_main_box()
+        JSR clear_main_box
         ; switch to wait soul
         mov player_soul, #SOUL::WAIT
         JSR switch_player_soul
@@ -100,9 +102,14 @@ update_player_fight:
 update_damage:
     push_ax
 
-    ; damage = atk - def
+    ; find monster stats
+    LDA selected_monster
+    shift ASL, MONSTER_STAT_SHIFT
+    TAX
+
+    ; damage = atk - monster.def
     LDA player_stats + PlayerStat::atk
-    sub player_stats + PlayerStat::def
+    sub monster_stats + MonsterStat::def, X
     ; if underflow or damage == 0 then damage = 1
     BCS :+
         LDA #$01

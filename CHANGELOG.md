@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.0.18 - 2024.03.13
+
+- Change python script making stats & names to pad thing correctly depending on monsters id
+- Fix python scripts
+  - Convertion of negative number into hex
+  - _pos_ and _spa_ not working
+  - Remove transparency from images convertion, because too many color ?
+- Start adding _Dummy_ monster
+- Change some monster code and macros to be global
+- Fix assembly
+  - Animation with only 1 frame not having position set correctly
+  - Menu displaying not enought or too many dialogs
+  - Damage calculation using player defense instead of monster defense
+  - Some control characters
+  - Minor things
+- Refactor clearing main box to work for any dialog box size
+
 ## 0.0.17 - 2024.03.11
 
 - Add ITEM (but still not the actual items)

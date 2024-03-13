@@ -12,7 +12,7 @@
 monster_code_bnk:
     .byte MONSTER_CODE_START_BNK + <((m_0_start - $8000) >> 13) ; monster 0
     .byte 0
-    .byte 0
+    .byte MONSTER_CODE_START_BNK + <((m_2_start - $8000) >> 13) ; monster 2
     .byte 0
     .byte 0
     .byte 0
@@ -278,9 +278,9 @@ monster_code_bnk:
 ; The index in the array is the ID of the monster.
 ;--------------------------------
 monster_code_struct:
-        .word m_0_start,m_0_turn-m_0_start,m_0_custom-m_0_turn,m_0_hit-m_0_custom,m_0_act-m_0_hit,m_0_item-m_0_act,m_0_spare-m_0_item,m_0_clear_event-m_0_spare ; monster 0
+        .word m_0_start,m_0_turn-m_0_start,m_0_custom-m_0_turn,m_0_hit-m_0_custom,m_0_act-m_0_hit,m_0_item-m_0_act,m_0_spare-m_0_item,m_0_flee-m_0_spare ; monster 0
     .tag MonsterCode
-    .tag MonsterCode
+    .word m_2_start,m_2_turn-m_2_start,m_2_custom-m_2_turn,m_2_hit-m_2_custom,m_2_act-m_2_hit,m_2_item-m_2_act,m_2_spare-m_2_item,m_2_flee-m_2_spare ; monster 2
     .tag MonsterCode
     .tag MonsterCode
     .tag MonsterCode

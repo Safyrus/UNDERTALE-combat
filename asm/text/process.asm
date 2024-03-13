@@ -86,17 +86,6 @@ text_process:
     shift ASL, DIALOGBOX_SIZE ; (n_dialog-1) * DIALOGBOX_SIZE
     TAX
     @loop:
-        ; if DialogBox.wait > 0
-        LDA dialog_boxs + DialogBox::wait, X
-        BEQ :+
-            ; DialogBox.wait--
-            DEC dialog_boxs + DialogBox::wait, X
-            ; all_print_end = false
-            mov @all_print_end, #$00
-            ; continue
-            JMP @next
-        :
-
         ; if DialogBox.flags.input (waiting for input)
         LDA dialog_boxs + DialogBox::flags, X
         AND #DIALOGBOX_FLAG_INPUT
@@ -110,10 +99,31 @@ text_process:
                 LDA dialog_boxs + DialogBox::flags, X
                 AND #$FF - DIALOGBOX_FLAG_INPUT
                 STA dialog_boxs + DialogBox::flags, X
-                ; clear dialog box
-                ; TODO
+                ; clear_text_dialog_box(X)
+                JSR clear_text_dialog_box
+                ; xpos = xstart
+                LDA dialog_boxs + DialogBox::xstart, X
+                STA dialog_boxs + DialogBox::xpos, X
+                ; ypos = ystart
+                LDA dialog_boxs + DialogBox::ystart, X
+                STA dialog_boxs + DialogBox::ypos, X
+                ; wait some frame to be sure that the text has been cleared
+                LDA #$08
+                STA dialog_boxs + DialogBox::wait, X
+                ;
                 JMP :++
             :
+            ; all_print_end = false
+            mov @all_print_end, #$00
+            ; continue
+            JMP @next
+        :
+
+        ; if DialogBox.wait > 0
+        LDA dialog_boxs + DialogBox::wait, X
+        BEQ :+
+            ; DialogBox.wait--
+            DEC dialog_boxs + DialogBox::wait, X
             ; all_print_end = false
             mov @all_print_end, #$00
             ; continue
@@ -141,7 +151,7 @@ text_process:
             ; if DialogBox.xpos >= DialogBox.xoff
             LDA dialog_boxs + DialogBox::xpos, X
             CMP dialog_boxs + DialogBox::xoff, X
-            bge :+
+            blt :+
                 ; DialogBox.xoff = DialogBox.xpos
                 STA dialog_boxs + DialogBox::xoff, X
             :
@@ -281,6 +291,13 @@ char_DB:
     LDA dialog_boxs + DialogBox::flags, X
     ORA #DIALOGBOX_FLAG_INPUT
     STA dialog_boxs + DialogBox::flags, X
+    ; if dialog_boxs[X].spd == 0
+    LDA dialog_boxs + DialogBox::spd, X
+    BNE :+
+        ; dialog_boxs[X].spd == DEFAULT_SPD
+        LDA #DEFAULT_SPD
+        STA dialog_boxs + DialogBox::spd, X
+    :
     ; return
     RTS
 char_FDB:
@@ -310,11 +327,11 @@ char_FNT:
 char_SPD:
     ; dialog_boxs[X].ptr ++
     INC dialog_boxs + DialogBox::ptr, X
-    ; Y = dialog_boxs[X].ptr
-    LDY dialog_boxs + DialogBox::ptr, X
     ; if dialog_boxs[X].spd > 0
     LDA dialog_boxs + DialogBox::spd, X
     BEQ :+
+        ; Y = dialog_boxs[X].ptr
+        LDY dialog_boxs + DialogBox::ptr, X
         ; dialog_boxs[X].spd = str_buf[Y]
         LDA str_buf, Y
         STA dialog_boxs + DialogBox::spd, X
@@ -324,11 +341,15 @@ char_SPD:
 char_DL:
     ; dialog_boxs[X].ptr ++
     INC dialog_boxs + DialogBox::ptr, X
-    ; Y = dialog_boxs[X].ptr
-    LDY dialog_boxs + DialogBox::ptr, X
-    ; dialog_boxs[X].wait = str_buf[Y]
-    LDA str_buf, Y
-    STA dialog_boxs + DialogBox::wait, X
+    ; if dialog_boxs[X].spd > 0
+    LDA dialog_boxs + DialogBox::spd, X
+    BEQ :+
+        ; Y = dialog_boxs[X].ptr
+        LDY dialog_boxs + DialogBox::ptr, X
+        ; dialog_boxs[X].wait = str_buf[Y]
+        LDA str_buf, Y
+        STA dialog_boxs + DialogBox::wait, X
+    :
     ; return
     RTS
 char_MUS:

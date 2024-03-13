@@ -40,8 +40,8 @@ with open(args.input, newline="") as csvfile:
             args.has_header = False
             continue
         # skip empty lines
-        if len(row) == 0:
-            continue
+        while len(row) < 8:
+            row.append(0)
 
         # add words to file
         asm_file += f"    .word "
@@ -65,12 +65,12 @@ with open(args.input, newline="") as csvfile:
 
 
 # file footer
-asm_file += f"""
-    ; unused data
-    .repeat {256-n}
-        .tag MonsterStat
-    .endrepeat
-"""
+# asm_file += f"""
+#     ; unused data
+#     .repeat {256-n}
+#         .tag MonsterStat
+#     .endrepeat
+# """
 
 # save file
 with open(args.output, "w") as f:

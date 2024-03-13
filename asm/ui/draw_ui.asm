@@ -63,9 +63,31 @@ draw_update_menu:
     pullregs
     RTS
 
+
 ;
+clear_main_box:
+    pushregs
+    ; params
+    LDX #2
+    LDY #17
+    mov tmp+2, #28
+    mov tmp+3, #6
+    ; clear_inside_box(params)
+    JSR clear_inside_box
+    ; return
+    pullregs
+    RTS
+
+
+; X = x pos (tile)
+; Y = y pos (tile)
+; tmp+2 = width (tile)
+; tmp+3 = height (tile)
 clear_inside_box:
-    @packet = tmp
+    @ppu = tmp+0
+    @w = tmp+2
+    @h = tmp+3
+    @packet = tmp+4
 
     ; change RAM bank
     ; LDA #VAR_RAM_BNK
@@ -75,34 +97,36 @@ clear_inside_box:
     mov_ptr @packet, packet_buffer_end
 
     ;
-    for_x @line, #0
+    JSR xytile_2_ppu
+
+    ;
+    for_x @line, @h
         ; size
         LDY #$00
-        LDA #28+$40
+        LDA @w
+        ORA #$40 ; high priority
         STA (@packet), Y
         INY
         ; pos hi
-        LDA #$22
+        LDA @ppu+1
         STA (@packet), Y
         INY
         ; pos lo
-        LDA #$20
-        STA MMC5_MUL_A
-        STX MMC5_MUL_B
-        LDA MMC5_MUL_A
-        add #$22
+        LDA @ppu+0
         STA (@packet), Y
-        ;
         INY
+        ; packet += 3
         TYA
         add_A2ptr @packet
+        ; ppu += $20 (one line)
+        add_A2ptr @ppu, #$20
 
         ; lower tiles
         LDA #$00
         for_y @lo, #0
             STA (@packet), Y
-        to_y_inc @lo, #28
-        ;
+        to_y_inc @lo, @w
+        ; packet += w
         TYA
         add_A2ptr @packet
 
@@ -110,11 +134,12 @@ clear_inside_box:
         LDA #UI_CHR_BNK
         for_y @hi, #0
             STA (@packet), Y
-        to_y_inc @hi, #28
-        ;
+        to_y_inc @hi, @w
+        ; packet += w
         TYA
         add_A2ptr @packet
-    to_x_inc @line, #6
+        ; continue
+    to_x_dec @line, #0
 
     ; packet_buffer_end = @packet
     mov_ptr packet_buffer_end, @packet

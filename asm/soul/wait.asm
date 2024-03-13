@@ -10,6 +10,8 @@ switch_player_soul_to_wait:
     LDA #$FF
     STA player_x
     STA player_y
+    ; deselect any main buttons
+    JSR draw_update_menu
     ; do not draw the player
     and_adr player_flag, #$FF - PLAYER_FLAG_DRAW_PLAYER
     ; return

@@ -708,18 +708,18 @@ def txt_2_bin(text):
                 textbin.append(b0)
                 textbin.append(b1)
                 textbin.append(b2)
+            elif name == "pos":
+                textbin.append(POS)
+                textbin = append_byte(textbin, int(args[0]), name, i)
+                textbin = append_byte(textbin, int(args[1]), name, i)
+            elif name == "spacing":
+                textbin.append(SPA)
+                textbin = append_byte(textbin, int(args[0]), name, i)
             else:
                 printv(f"Unknown tag '{name}' at {i}", param="tw", v=V_WARNING)
 
             # update index
             i = tag_end + 1
-        elif name == "pos":
-            textbin.append(POS)
-            textbin = append_byte(textbin, int(args[0]), name, i)
-            textbin = append_byte(textbin, int(args[1]), name, i)
-        elif name == "spacing":
-            textbin.append(SPA)
-            textbin = append_byte(textbin, int(args[0]), name, i)
         else:
             # add char
             textbin = add_normal_char(textbin, c)

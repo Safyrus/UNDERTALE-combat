@@ -4,6 +4,9 @@
 .segment "MONSTER_ANIM_DATA"
 
 anim_data:
+    ; ANIM_DATA_MONSTERS_DUMMY_NORMAL
+    .byte 240, 32, 0, 0 ; x, y, delay, type
+    .word IMG_DATA_MONSTERS_DUMMY_DUMMY_0, 0 ; img, next
     ; ANIM_DATA_MONSTERS_FROGGIT_FROGGIT_BKG
     .byte 0, 0, 0, 0 ; x, y, delay, type
     .word IMG_DATA_MONSTERS_FROGGIT_FROGGIT, 0 ; img, next

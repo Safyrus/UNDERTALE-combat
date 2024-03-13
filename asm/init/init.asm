@@ -67,6 +67,7 @@ INIT:
     mov player_bound_y2, #23*8+6
     STA futur_box_pos_y2
     ; init player soul type
+    mov player_soul, #SOUL::WAIT
     JSR switch_player_soul
 
     ; init text reading
@@ -76,9 +77,6 @@ INIT:
 
     ; init rng
     mov_ptr seed, saved_seed
-    ; menu_dialog_flag = 0
-    LDA #$00
-    STA menu_dialog_flag
     ; if seed == 0
     CMP seed+0
     BNE :+
@@ -94,8 +92,8 @@ INIT:
     ; init packet_buffer_end
     sta_ptr packet_buffer_end, packet_buffer
 
-    ; load fight 0
-    mov fight_id, #$00
+    ; load fight 1
+    mov fight_id, #$01
     JSR load_fight
 
     ; update player UI

@@ -176,12 +176,14 @@
     oam_size: .res 1
 
     fight_timer: .res 1
-    fight_monster: .res 1
+    selected_monster: .res 1
     fight_damage: .res 1
     fight_markpos: .res 1
 
     item_adr: .res 2
     item_var: .res 1
+
+    act_choice: .res 1
 
     cur_music: .res 1
     cur_music_bank: .res 1
@@ -496,7 +498,6 @@ OAM:
         menu_dialog_lo: .res 1
         menu_dialog_hi: .res 1
         menu_dialog_bnk: .res 1
-        menu_dialog_flag: .res 1
 
         menu_idx: .res 1
         menu_size: .res 1

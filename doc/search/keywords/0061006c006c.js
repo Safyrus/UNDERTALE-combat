@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("all",["Function"],[["all_dialog_spd_to_zero",,[[,,,,0,"File:text/utils.asm:all_dialog_spd_to_zero"]]]]);

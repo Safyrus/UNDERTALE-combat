@@ -37,7 +37,7 @@ img_filenames = get_imgs_from_csv(csv_filenames, type="background_color")
 for imgname in img_filenames:
     print(imgname)
     # open image
-    img = Image.open(imgname)
+    img = Image.open(imgname).convert("RGB")
     # if number of color exeed 4
     if not img.getcolors(maxcolors=4):
         # skip

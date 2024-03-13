@@ -41,7 +41,7 @@ with open(args.input, newline="") as csvfile:
             continue
         # skip empty lines
         if len(row) == 0:
-            continue
+            row.append("XXXXXXXX")
 
         # read data from row
         # add it to file
@@ -50,12 +50,12 @@ with open(args.input, newline="") as csvfile:
 
 
 # file footer
-asm_file += f"""
-    ; unused data
-    .repeat {256-n}
-        .byte "        "
-    .endrepeat
-"""
+# asm_file += f"""
+#     ; unused data
+#     .repeat {256-n}
+#         .byte "        "
+#     .endrepeat
+# """
 
 # save file
 with open(args.output, "w") as f:

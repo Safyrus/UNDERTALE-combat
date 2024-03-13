@@ -25,6 +25,7 @@
 .include "menu/go.asm"
 .include "menu/logic.asm"
 
+.include "monster/code_utils.asm"
 .include "monster/event.asm"
 .include "monster/load.asm"
 .include "monster/utils.asm"

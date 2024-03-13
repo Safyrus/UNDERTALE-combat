@@ -1,6 +1,7 @@
 
 def int2hex(n, pad=2):
     if n < 0:
+        n *= -1
         n ^= (1 << (pad * 4)) - 1
         n += 1
     s = hex(n)[2:]

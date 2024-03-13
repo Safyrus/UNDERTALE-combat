@@ -47,11 +47,11 @@ readjoy:
 readjoy_safe:
     jsr readjoy
 @reread:
-    lda btn_1, x
+    lda btn_1
     pha
     jsr readjoy
     pla
-    cmp btn_1, x
+    cmp btn_1
     bne @reread
     rts
 

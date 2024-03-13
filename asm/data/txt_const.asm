@@ -1,9 +1,14 @@
 ; This file was generated
 
 ; Text constants:
-    TXT_ITEM_1 = 0
-    TXT_START_1 = 28
-    TXT_START_2 = 46
-    TXT_START_3 = 69
-    TXT_TURN = 111
-    TXT_EVENT = 135
+    TXT_DUMMY_RND_1 = 0
+    TXT_DUMMY_RND_2 = 47
+    TXT_DUMMY_TIRED = 88
+    TXT_DUMMY_CHECK = 134
+    TXT_DUMMY_ACT_TALK = 228
+    TXT_DUMMY_START = 339
+    TXT_DUMMY_FIGHT = 369
+    TXT_ITEM_1 = 383
+    TXT_START_1 = 411
+    TXT_START_2 = 429
+    TXT_START_3 = 452

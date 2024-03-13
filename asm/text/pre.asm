@@ -94,13 +94,11 @@ text_pre_process:
         CMP #CHAR::POS
         BNE :+
             STX tmp
-            ; x = read_next_char() * 2
+            ; x = read_next_char()
             JSR read_next_char
-            ASL
             TAX
-            ; y = read_next_char() * 2
+            ; y = read_next_char()
             JSR read_next_char
-            ASL
             TAY
             ; new_dialog_box(i,x,y)
             LDA tmp

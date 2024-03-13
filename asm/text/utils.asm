@@ -50,6 +50,14 @@ read_dialog:
     JMP text_pre_process
 
 
+;--------------------------------
+; Subroutine: all_dialog_spd_to_zero
+;--------------------------------
+;
+; Set speed of all dialog boxes to 0
+;
+; /!\ Does not save registers /!\
+;--------------------------------
 all_dialog_spd_to_zero:
     LDX #DialogBox::spd
     @loop:
@@ -63,4 +71,32 @@ all_dialog_spd_to_zero:
         ; break if X == MAX_DIALOGBOX*8
         CPX #MAX_DIALOGBOX*8
         bge @loop
+    RTS
+
+
+
+; X = dialog box offset
+clear_text_dialog_box:
+    pushregs
+    ; y = ystart
+    LDA dialog_boxs + DialogBox::ystart, X
+    TAY
+    ; h = ypos - ystart + 1
+    LDA dialog_boxs + DialogBox::ypos, X
+    sub dialog_boxs + DialogBox::ystart, X
+    STA tmp+3
+    INC tmp+3
+    ; w = xstart
+    LDA dialog_boxs + DialogBox::xstart, X
+    STA tmp+2
+    ; x = xstart
+    ; w = xoff - w
+    LDA dialog_boxs + DialogBox::xoff, X
+    LDX tmp+2
+    sub tmp+2
+    STA tmp+2
+    ; clear_inside_box(params)
+    JSR clear_inside_box
+    ; return
+    pullregs
     RTS

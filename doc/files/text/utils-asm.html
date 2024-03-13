@@ -17,9 +17,14 @@
  <div class="CBody"><p>Read the next character in text data.</p><div class="CHeading">Return</div><table class="CDefinitionList"><tr><td class="CDLEntry">A</td><td class="CDLDefinition"><p>char read</p></td></tr></table><p>/!\ Change Y to 0 /!\</p></div>
 </div>
 
-<a name="read_dialog"></a><a name="Topic252"></a><div class="CTopic TFunction LAssembly last">
+<a name="read_dialog"></a><a name="Topic252"></a><div class="CTopic TFunction LAssembly">
  <div class="CTitle">read_dialog</div>
  <div class="CBody"><p>Init <a href="../../index.html#File:memory.asm:next_char_ptr" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,265);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >next_char_ptr</a> and call <a href="../../index.html#File:text/pre.asm:text_pre_process" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,25);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >text_pre_process</a>.&nbsp; LZ decode text if needed (with <a href="../../index.html#File:text/lz.asm:lz_init" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,249);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >lz_init</a> and <a href="../../index.html#File:text/lz.asm:lz_decode" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,411);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >lz_decode</a>).</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">A</td><td class="CDLDefinition"><p>bank position of the uncompressed text</p></td></tr><tr><td class="CDLEntry">X</td><td class="CDLDefinition"><p>address (low) of the uncompressed text</p></td></tr><tr><td class="CDLEntry">Y</td><td class="CDLDefinition"><p>address (high) of the uncompressed text</p></td></tr></table></div>
+</div>
+
+<a name="all_dialog_spd_to_zero"></a><a name="Topic452"></a><div class="CTopic TFunction LAssembly last">
+ <div class="CTitle">all_dialog_spd_to_zero</div>
+ <div class="CBody"><p>Set speed of all dialog boxes to 0</p><p>/!\ Does not save registers /!\</p></div>
 </div>
 
 </body></html>

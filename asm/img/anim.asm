@@ -24,7 +24,7 @@ update_anims:
         BPL @continue
             ; if animation delay == 0
             LDA anims_delay, X
-            BNE :+
+            BNE @else
                 ; disable animation
                 LDA #$7F
                 AND anims_flag, X
@@ -33,24 +33,28 @@ update_anims:
                 ; LDA anims_flag, X
                 AND #$03
                 STA cur_monster_fight_pos
+                ; clear entity sprites
+                phx
+                JSR clear_entity_spr
+                plx
                 ; tmp = anim index
                 LDA anims_next_hi, X
                 STA tmp+1
                 LDA anims_next_lo, X
                 STA tmp+0
-                ; clear entity sprites
-                phx
-                JSR clear_entity_spr
-                plx
-                ; draw animation
-                JSR draw_anim
-                ;
-                JMP :++
+                ; if anim index != 0
+                BNE :+
+                LDA tmp+1
+                BEQ @ifend
+                :
+                    ; draw animation
+                    JSR draw_anim
+                    JMP @ifend
             ; else
-            :
+            @else:
                 ; delay--
                 DEC anims_delay, X
-            :
+            @ifend:
         @continue:
     to_x_dec @loop, #-1
     RTS

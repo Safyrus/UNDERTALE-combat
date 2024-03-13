@@ -30,9 +30,8 @@ menu_set_dialog:
     STA menu_dialog_bnk
     STX menu_dialog_lo
     STY menu_dialog_hi
-    mov menu_dialog_flag, #$01
     PLA
-    JMP menu_update_dialog
+    RTS
 
 
 menu_update_dialog:

@@ -5,3 +5,4 @@
 
 monster_code_data:
     .include "m_0/code.asm"
+    .include "m_2/code.asm"
