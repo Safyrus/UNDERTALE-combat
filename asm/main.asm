@@ -11,6 +11,9 @@
 .include "box/bot.asm"
 .include "box/utils.asm"
 
+.include "dmg/table.asm"
+.include "dmg/anim.asm"
+
 .include "img/anim.asm"
 .include "img/draw_buf.asm"
 .include "img/draw_img.asm"
@@ -53,6 +56,7 @@
 .include "ui/draw_hp.asm"
 
 .include "hitbox.asm"
+.include "int2bcd.asm"
 .include "item.asm"
 .include "joypad.asm"
 .include "player.asm"

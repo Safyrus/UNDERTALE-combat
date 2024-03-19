@@ -175,10 +175,14 @@
 
     oam_size: .res 1
 
-    fight_timer: .res 1
     selected_monster: .res 1
+
+    fight_timer: .res 1
+    fight_state: .res 1
     fight_damage: .res 1
     fight_markpos: .res 1
+
+    fight_bcd: .res 3
 
     item_adr: .res 2
     item_var: .res 1

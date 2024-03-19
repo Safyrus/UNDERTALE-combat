@@ -31,6 +31,6 @@ init_pal:
     .byte $17, $00, $00 ; orange
     ; sprite
     .byte $30, $00, $16 ; sprite palette 0
-    .byte $00, $00, $00 ; sprite palette 1
+    .byte $16, $00, $0F ; sprite palette 1
     .byte $00, $00, $00 ; sprite palette 2
     .byte $00, $00, $00 ; sprite palette 3

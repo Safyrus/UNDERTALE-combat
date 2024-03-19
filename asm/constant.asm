@@ -400,6 +400,10 @@
     ITEM_NAME_SIZE = 16
     ITEM_NAME_SHIFT = 4
 
+    FIGHT_STRICK_TIME = 15*5
+    FIGHT_NUMBER_TIME = 15*5
+    DMG_SPRITE_BNK = (4*0)+2
+
 ;================
 ; Group: Game - Soul
 ;================

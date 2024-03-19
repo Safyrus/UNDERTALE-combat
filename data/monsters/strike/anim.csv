@@ -1,0 +1,7 @@
+img,name,bkg_or_spr,pos_x,pos_y,duration_time,next_name,atr_if_spr,move_if_spr
+strike1.png,strike_1,sprite_color,0,0,15,strike_2,,
+strike2.png,strike_2,sprite_color,0,0,15,strike_3,,
+strike3.png,strike_3,sprite_color,0,0,15,strike_4,,
+strike4.png,strike_4,sprite_color,0,0,15,strike_5,,
+strike5.png,strike_5,sprite_color,0,0,15,strike_6,,
+strike6.png,strike_6,sprite_color,0,0,15,,,

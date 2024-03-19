@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.19 - 2024.03.1X
+
+- int (16bits) to BCD
+- BCD to big number sprites
+- Start adding FIGHT animation
+  - Damage numbers
+  - hit marker (also fixed it being displayed oustide of the box)
+
 ## 0.0.18 - 2024.03.13
 
 - Change python script making stats & names to pad thing correctly depending on monsters id

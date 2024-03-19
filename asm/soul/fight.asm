@@ -53,12 +53,25 @@ switch_player_soul_to_fight:
 ;
 ;--------------------------------
 update_player_fight:
+    LDA fight_state
+    BNE @anim
+    @atk:
+        JMP update_player_fight_atk
+    @anim:
+        JMP dmg_anim
+
+
+update_player_fight_atk:
     PHA
 
     ; if fight_timer == 0
     LDA fight_timer
-    ; call monster hit event
-    BEQ @event
+    BNE :+
+        ; miss
+        mov fight_damage, #0
+        ;
+        JMP @event
+    :
 
     ; fight_timer--
     DEC fight_timer
@@ -74,23 +87,14 @@ update_player_fight:
     BEQ @end
 
         @hit:
-        ; fight_timer = 0
-        STA fight_timer
-        ; damage = 1
+        ; update_damage()
         JSR update_damage
 
         @event:
-        ; call monster hit event
-        phx
-        mvx cur_monster_fight_pos, selected_monster
-        LDA #EVENT::HIT
-        STA monster_events, X
-        plx
-        ; clear_main_box()
-        JSR clear_main_box
-        ; switch to wait soul
-        mov player_soul, #SOUL::WAIT
-        JSR switch_player_soul
+        ; fight_state++
+        INC fight_state
+        ; fight_timer = 0
+        mov fight_timer, #$00
 
     ; return
     @end:
@@ -134,9 +138,9 @@ update_damage:
     :
     ; dist = 15 - (dist >> 3)
     shift LSR, 3
-    STA fight_markpos
+    STA tmp
     LDA #15
-    sub fight_markpos
+    sub tmp
     TAX
 
     ; damage *= 2
