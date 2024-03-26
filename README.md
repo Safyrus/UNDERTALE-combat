@@ -56,6 +56,18 @@ Please support the original release @ https://undertale.com
 - [NesDev](https://www.nesdev.org/wiki/Nesdev_Wiki) of course.
 - Nintendo for the NES, I suppose.
 
-### Sound
+### Tools
 
 - [FamiStudio](https://famistudio.org) sound engine by BleuBleu.
+- [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool) for decompiling Undertale.
+
+### Musics
+
+Ressources that help me a lot made by people much more talented than in regard to musics.
+
+- [The Toby Fox Sample Sheet](https://docs.google.com/spreadsheets/d/10is6jIBxYlPm0Bcaf0KFFw9TE0bph8L0pcXSiz6xs5E/edit#gid=676961136)
+- Undertale MIDI Resource Archive
+  (ShinkoNetCavy, Lu9, Radixan, Jay Reichard, JJokerDude, Zorzag2, Williatico, Zumi, Epikjman27, ShadowChords, and Revle.)
+- Undertale MIDI by [Radiáxn](https://yewtu.be/channel/UCFDBGreo_wuOiSDgHDJPHig)
+- This [Reddit post](https://www.reddit.com/r/Undertale/comments/9msp3f/heres_a_dump_of_all_the_undertale_midi_files_ive/)
+
