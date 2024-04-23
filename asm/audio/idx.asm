@@ -1,4 +1,7 @@
+MAX_MUSIC = 106
+
 music_idx_table:
+    .byte 0 ; =)
     .byte 0 ; Once Upon a Time
     .byte 1 ; Start Menu
     .byte 2 ; Your Best Friend
@@ -21,8 +24,8 @@ music_idx_table:
     .byte 3 ; Mysterious Place
     .byte 4 ; Dogsong
     .byte 5 ; Snowdin Town
-    .byte 6 ; Shop
-    .byte 7 ; Bonetrousle
+    .byte 4 ; Shop
+    .byte 6 ; Bonetrousle
     .byte 0 ; Dating Start
     .byte 1 ; Dating Tense
     .byte 2 ; Dating Fight
@@ -34,69 +37,74 @@ music_idx_table:
     .byte 8 ; Quiet Water
     .byte 9 ; Memory
     .byte 0 ; Bird That Carries You Over a Disproportionately Small Gap
-    .byte 0 ; Dummy
-    .byte 0 ; Pathetic House
-    .byte 0 ; Spooktune
-    .byte 0 ; Spookwave
-    .byte 0 ; Ghouliday
-    .byte 0 ; Chill
+    .byte 1 ; Dummy
+    .byte 2 ; Pathetic House
+    .byte 3 ; Spooktune
+    .byte 4 ; Spookwave
+    .byte 5 ; Ghouliday
+    .byte 6 ; Chill
     .byte 0 ; Thundersnail
-    .byte 0 ; Temmie Village
-    .byte 0 ; Tem Shop
-    .byte 0 ; Ngahhh
-    .byte 0 ; Spear of Justice
-    .byte 0 ; Ooo
+    .byte 1 ; Temmie Village
+    .byte 2 ; Tem Shop
+    .byte 3 ; Ngahhh
+    .byte 4 ; Spear of Justice
+    .byte 5 ; Ooo
     .byte 0 ; Alphys
-    .byte 0 ; It's Showtime
-    .byte 0 ; Metal Crusher
-    .byte 0 ; Another Medium
+    .byte 1 ; It's Showtime
+    .byte 2 ; Metal Crusher
+    .byte 3 ; Another Medium
     .byte 0 ; Uwa!! So Heats
     .byte 0 ; Stronger Monsters
-    .byte 0 ; Hotel
-    .byte 0 ; Can You Really Call This a Hotel, I Didn't Receive a Mint on My Pillow or Anything
-    .byte 0 ; Confession
-    .byte 0 ; Live Report
-    .byte 0 ; Death Report
+    .byte 1 ; Hotel
+    .byte 2 ; Can You Really Call This a Hotel, I Didn't Receive a Mint on My Pillow or Anything
+    .byte 1 ; Confession
+    .byte 3 ; Live Report
+    .byte 4 ; Death Report
     .byte 0 ; Spider Dance
-    .byte 0 ; Wrong Enemy
-    .byte 0 ; Oh! One True Love
-    .byte 0 ; Oh! Dungeon
+    .byte 1 ; Wrong Enemy
+    .byte 2 ; Oh! One True Love
+    .byte 3 ; Oh! Dungeon
     .byte 0 ; It's Raining Somewhere Else
-    .byte 0 ; Core Approach
-    .byte 0 ; Core
-    .byte 0 ; Last Episode
-    .byte 0 ; Oh My
+    .byte 1 ; Core Approach
+    .byte 2 ; Core
+    .byte 3 ; Last Episode
+    .byte 4 ; Oh My
     .byte 0 ; Death by Glamour
-    .byte 0 ; For the Fans
-    .byte 0 ; Long Elevator
-    .byte 0 ; Undertale
+    .byte 5 ; For the Fans
+    .byte 6 ; Long Elevator
+    .byte 1 ; Undertale
     .byte 0 ; Song That Might Play When You Fight Sans
-    .byte 0 ; The Choice
-    .byte 0 ; Small Shock
-    .byte 0 ; Barrier
-    .byte 0 ; Bergentrückung
-    .byte 0 ; ASGORE
-    .byte 0 ; You Idiot
-    .byte 0 ; Your Best Nightmare
+    .byte 2 ; The Choice
+    .byte 3 ; Small Shock
+    .byte 4 ; Barrier
+    .byte 5 ; Bergentrückung
+    .byte 1 ; ASGORE
+    .byte 1 ; You Idiot
+    .byte 2 ; Your Best Nightmare
     .byte 0 ; Finale
-    .byte 0 ; An Ending
-    .byte 0 ; She's Playing Piano
-    .byte 0 ; Here We Are
-    .byte 0 ; Amalgam
+    .byte 1 ; An Ending
+    .byte 3 ; She's Playing Piano
+    .byte 2 ; Here We Are
+    .byte 3 ; Amalgam
     .byte 0 ; Fallen Down (Reprise)
-    .byte 0 ; Don't Give Up
-    .byte 0 ; Hopes and Dreams
+    .byte 1 ; Don't Give Up
+    .byte 2 ; Hopes and Dreams
     .byte 0 ; Burn in Despair
-    .byte 0 ; Save the World
-    .byte 0 ; His Theme
-    .byte 0 ; Final Power
-    .byte 0 ; Reunited
-    .byte 0 ; Menu (Full)
+    .byte 1 ; Save the World
+    .byte 2 ; His Theme
+    .byte 3 ; Final Power
+    .byte 4 ; Reunited
+    .byte 2 ; Menu (Full)
     .byte 0 ; Respite
-    .byte 0 ; Bring It In, Guys
+    .byte 1 ; Bring It In, Guys
     .byte 0 ; Last Goodbye
-    .byte 0 ; But the Earth Refused to Die
-    .byte 0 ; Battle Against a True Hero
-    .byte 0 ; Power of "Neo"
-    .byte 0 ; MEGALOVANIA
-    .byte 0 ; Good Night
+    .byte 1 ; But the Earth Refused to Die
+    .byte 2 ; Battle Against a True Hero
+    .byte 3 ; Power of "Neo"
+    .byte 2 ; MEGALOVANIA
+    .byte 3 ; Good Night
+    .byte 4 ; Wrong Number Song
+    .byte 5 ; Happy Town
+    .byte 6 ; Meat Factory
+    .byte 7 ; Trouble Dingle
+    .byte 8 ; Gaster Theme

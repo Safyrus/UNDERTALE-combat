@@ -24,6 +24,12 @@ anim_data:
     ; ANIM_DATA_MONSTERS_ATKIMG_R
     .byte 112, 0, 0, 0 ; x, y, delay, type
     .word IMG_CL_DATA_MONSTERS_ATK_IMG_RIGHT, 0 ; img, next
+    ; ANIM_DATA_MONSTERS_UNDERTALE_LOGO_L
+    .byte 0, 0, 0, 0 ; x, y, delay, type
+    .word IMG_CL_DATA_MONSTERS_UNDERTALE_LOGO_LEFT, 0 ; img, next
+    ; ANIM_DATA_MONSTERS_UNDERTALE_LOGO_R
+    .byte 80, 0, 0, 0 ; x, y, delay, type
+    .word IMG_CL_DATA_MONSTERS_UNDERTALE_LOGO_RIGHT, 0 ; img, next
 
 ; anim_data_spr
     ; ANIM_DATA_MONSTERS_TESTOBUG_ANIMS_SPR_0

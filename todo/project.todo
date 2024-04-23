@@ -88,3 +88,4 @@ Projects:
         ☐ better resizable box code
         ☐ First power up (with no save/all MMC5 RAM to 0) softlock (but all other power up works afterward)
         ☐ Hitbox sprite update is too slow
+        ☐ DAC value not being reset between musics

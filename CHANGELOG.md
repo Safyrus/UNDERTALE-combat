@@ -1,6 +1,12 @@
 # Changelog
 
-## 0.0.21 - 2024.04.22
+## 0.0.23 - 2024.04.23
+
+- Add a piece of code that transform the game into a music player when compiling with the `MUSICROM` flag
+- Fix some musics
+- Fix a bug when preprocessing text containing `SPD 0`
+
+## 0.0.22 - 2024.04.22
 
 - Musics (94/101)
 

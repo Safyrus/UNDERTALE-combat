@@ -39,8 +39,10 @@ INIT:
     
     ; init graphics
     JSR init_pal
+.ifndef MUSICROM
     JSR draw_dialog_box
     JSR draw_UI
+.endif
 
     ; set CHR bank 0 to player sprites
     mov MMC5_CHR_BNK0, #PLAYER_SPRITE_BNK

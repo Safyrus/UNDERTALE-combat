@@ -1,1 +1,1 @@
-﻿NDSummary.OnToolTipsLoaded("File:main.asm",{70:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">Starting point of the code after RST is done.</div></div>"});
+﻿NDSummary.OnToolTipsLoaded("File:main.asm",{453:"<div class=\"NDToolTip TFunction LAssembly\"><div class=\"TTSummary\">MAIN function for the entire game.&nbsp; Starting point of the code after RST is done.</div></div>"});

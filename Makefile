@@ -42,6 +42,7 @@ $(GAME_NAME).nes:
 	mkdir -p "$(BIN)"
 # assemble main file
 	$(CA65) asm/crt0.asm -o $(BIN)/$(GAME_NAME).o --debug-info
+# $(CA65) asm/crt0.asm -o $(BIN)/$(GAME_NAME).o --debug-info -DMUSICROM
 # link files
 	$(LD65) $(BIN)/$(GAME_NAME).o -C link.cfg -o $(GAME_NAME).nes --dbgfile $(GAME_NAME).DBG
 

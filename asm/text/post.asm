@@ -17,6 +17,9 @@ text_post_process:
     ; TODO: remove this and find a better solution for not erasing wantedd dialog
     ; if n_dialog == 1
     DEX
+.ifdef MUSICROM
+    DEX
+.endif
         ; return
         BEQ @skip_loop
 

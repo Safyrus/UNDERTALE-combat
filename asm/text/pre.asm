@@ -112,7 +112,18 @@ text_pre_process:
             STA str_buf, X
             ; i++
             INX
-            ;
+            ; if c == SPD
+            CMP #CHAR::SPD
+            BNE :+
+                ; c = read_next_char()
+                JSR read_next_char
+                ; buf[i] = c
+                STA str_buf, X
+                ; i++
+                INX
+            :
+            ; TODO: other special chars
+            ; loop
             JMP @while
     @end:
     ; restore RAM bank

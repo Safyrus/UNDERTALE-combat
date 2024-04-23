@@ -68,11 +68,16 @@
 ; Subroutine: MAIN
 ;--------------------------------
 ;
+; MAIN function for the entire game.
 ; Starting point of the code after RST is done.
 ;
 ;--------------------------------
 MAIN:
     JSR INIT
+
+.ifdef MUSICROM
+    .include "music_override.asm"
+.endif
 
 MAIN_loop:
     ; wait for the next frame

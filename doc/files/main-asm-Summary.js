@@ -1,1 +1,1 @@
-﻿NDFramePage.OnPageTitleLoaded("File:main.asm","main.asm");NDSummary.OnSummaryLoaded("File:main.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[68,0,1,"Functions","Functions"],[70,0,0,"MAIN","MAIN"]]);
+﻿NDFramePage.OnPageTitleLoaded("File:main.asm","main.asm");NDSummary.OnSummaryLoaded("File:main.asm",[["Assembly","Assembly"]],[["Functions","Function"],["Groups","Group"]],[[68,0,1,"Functions","Functions"],[453,0,0,"MAIN","MAIN"]]);
