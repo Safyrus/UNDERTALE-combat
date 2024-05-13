@@ -11,8 +11,8 @@ init_famistudio:
     JSR famistudio_init
 
     ; test music
-    LDA #$06
-    JSR famistudio_music_play
+    ; LDA #$00
+    ; JSR famistudio_music_play
 
     ; restore bank
     LDA mmc5_banks+2

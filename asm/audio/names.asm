@@ -76,14 +76,14 @@ song_73: .asciiz "The Choice"
 song_74: .asciiz "Small Shock"
 song_75: .asciiz "Barrier"
 song_76: .asciiz "Bergentruckung"
-song_77: .asciiz "ASGORE (WIP)"
+song_77: .asciiz "ASGORE"
 song_78: .asciiz "Your Idiot"
 song_79: .asciiz "Your Best Nightmare"
 song_80: .asciiz "Final"
 song_81: .asciiz "An Ending"
 song_82: .asciiz "She's Playing Piano"
 song_83: .asciiz "Here We Are"
-song_84: .asciiz "Amalgam (WIP)"
+song_84: .asciiz "Amalgam"
 song_85: .asciiz "Fallen Down (Reprise)"
 song_86: .asciiz "Don't Give Up"
 song_87: .asciiz "Hopes And Dreams"
@@ -94,18 +94,19 @@ song_91: .asciiz "Final Power"
 song_92: .asciiz "Reunited"
 song_93: .asciiz "Menu (Full)"
 song_94: .asciiz "Respite"
-song_95: .asciiz "Bring It In, Guys! (WIP)"
+song_95: .asciiz "Bring It In, Guys!"
 song_96: .asciiz "Last Goodbye"
 song_97: .asciiz "But the Earth Refused to Die"
 song_98: .asciiz "Battle Against a True Hero"
 song_99: .asciiz "Power of 'NEO'"
-song_100: .asciiz "Megalovania (WIP)"
+song_100: .asciiz "Megalovania"
 song_101: .asciiz "Good Night"
-song_102: .asciiz "Wrong Number Song"
-song_103: .asciiz "Happy Town"
-song_104: .asciiz "Meat Factory"
-song_105: .asciiz "Trouble Dingle"
-song_106: .asciiz "[REDACTED]"  
+song_102: .asciiz "Sigh of Dog"
+song_103: .asciiz "Wrong Number Song"
+song_104: .asciiz "Happy Town"
+song_105: .asciiz "Meat Factory"
+song_106: .asciiz "Trouble Dingle"
+song_107: .asciiz "[REDACTED]"  
 
 song_strings_adr_lo:
 .byte <song_0
@@ -215,6 +216,7 @@ song_strings_adr_lo:
 .byte <song_104
 .byte <song_105
 .byte <song_106
+.byte <song_107
 
 song_strings_adr_hi:
 .byte >song_0
@@ -324,5 +326,6 @@ song_strings_adr_hi:
 .byte >song_104
 .byte >song_105
 .byte >song_106
+.byte >song_107
 
 .endif

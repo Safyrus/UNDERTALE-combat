@@ -33,18 +33,28 @@ NATURALDOCS = "..\..\doc\Natural Docs\NaturalDocs.exe"
 all:
 	make clean_all
 	make $(GAME_NAME).nes
+	make $(GAME_NAME)_music.nes
 	make clean
 
 
 # create the nes file from assembler sources
-$(GAME_NAME).nes:
+$(GAME_NAME).nes: FORCE
 # create folder if it does not exist
 	mkdir -p "$(BIN)"
 # assemble main file
 	$(CA65) asm/crt0.asm -o $(BIN)/$(GAME_NAME).o --debug-info
-# $(CA65) asm/crt0.asm -o $(BIN)/$(GAME_NAME).o --debug-info -DMUSICROM
 # link files
 	$(LD65) $(BIN)/$(GAME_NAME).o -C link.cfg -o $(GAME_NAME).nes --dbgfile $(GAME_NAME).DBG
+
+
+# create the nes file (music player) from assembler sources
+$(GAME_NAME)_music.nes: FORCE
+# create folder if it does not exist
+	mkdir -p "$(BIN)"
+# assemble main file
+	$(CA65) asm/crt0.asm -o $(BIN)/$(GAME_NAME)_music.o --debug-info -DMUSICROM
+# link files
+	$(LD65) $(BIN)/$(GAME_NAME)_music.o -C link.cfg -o $(GAME_NAME)_music.nes --dbgfile $(GAME_NAME)_music.DBG
 
 
 # clean object files

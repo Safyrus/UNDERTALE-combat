@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0 - 2024.05.14 : OST update
+
+- **All the OST is now done!**
+- Change python music helper script to also generate some assembly files.
+- Export all the OST to assembly.
+- Change Makefile to also create the music NES file.
+- Fix FamiStudio bug related to incrementing 16 bits pointer when fetching a song.
+  (Already fix in new release, I just need to update the engine and re-export all the song, again -_-)
+
 ## 0.0.23 - 2024.04.23
 
 - Add a piece of code that transform the game into a music player when compiling with the `MUSICROM` flag
