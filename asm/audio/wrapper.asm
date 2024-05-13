@@ -10,10 +10,6 @@ init_famistudio:
     TYA
     JSR famistudio_init
 
-    ; test music
-    ; LDA #$00
-    ; JSR famistudio_music_play
-
     ; restore bank
     LDA mmc5_banks+2
     STA MMC5_PRG_BNK1

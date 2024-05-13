@@ -109,7 +109,7 @@ INIT:
     to_x_dec @inv, #-1
 
     ; Init FamiStudio
-    LDA #<.bank(music_data_undertale_ost_0)+$80
-    JSR init_famistudio
+    LDX #7
+    JSR play_music
 
     RTS
