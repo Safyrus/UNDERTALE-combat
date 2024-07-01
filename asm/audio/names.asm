@@ -14,8 +14,8 @@ song_11: .asciiz "Determination"
 song_12: .asciiz "Home"
 song_13: .asciiz "Home (Music Box)"
 song_14: .asciiz "Heartache"
-song_15: .asciiz "sans."
-song_16: .asciiz "Nye heh heh!"
+song_15: .byte CHAR::FNT, 4, "sans.", 0
+song_16: .byte CHAR::FNT, 7, "NYE HEH HEH!", 0
 song_17: .asciiz "Snowy"
 song_18: .asciiz "Uwa!! So Holiday~"
 song_19: .asciiz "Dogbass"
@@ -23,7 +23,7 @@ song_20: .asciiz "Mysterious Place"
 song_21: .asciiz "Dogsong"
 song_22: .asciiz "Snowdin Town"
 song_23: .asciiz "Shop"
-song_24: .asciiz "Bonetrousle"
+song_24: .byte CHAR::FNT, 7, "BONETROUSLE", 0
 song_25: .asciiz "Dating Start"
 song_26: .asciiz "Dating Tense"
 song_27: .asciiz "Dating Fight"
@@ -71,7 +71,7 @@ song_68: .asciiz "Death By Glamour"
 song_69: .asciiz "For the Fans"
 song_70: .asciiz "Long Elevator"
 song_71: .asciiz "Undertale"
-song_72: .byte "Song That Might Play When", CHAR::LB, "You Fight Sans", 0
+song_72: .byte CHAR::FNT, 4, "Song That Might Play When", CHAR::LB, "You Fight Sans", 0
 song_73: .asciiz "The Choice"
 song_74: .asciiz "Small Shock"
 song_75: .asciiz "Barrier"

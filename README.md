@@ -2,9 +2,30 @@
 
 ## About The Project
 
-This is an attempt at recreating the UNDERTALE combat system for the NES.
+This is an attempt at recreating the **UNDERTALE combat** system for the **NES**.
 
-This project is also trying to remake all the UNDERTALE ost using the NES MMC5 mapper.
+This project also contain another project:
+A **remake** all the **UNDERTALE OST** using the **NES MMC5** mapper.
+You can find the project [here](data/undertale.fms).
+You will need [FamiStudio](https://famistudio.org/) to open it.
+Also, I'm no musician, so I'm sure there are mistakes here and there.
+
+## Downloads
+
+### Nightly build
+
+Somewhere at the root of the repo (for now).
+
+- [Combat ROM](Undertale.nes)
+- [Music ROM](Undertale_music.nes)
+
+## Emulators
+
+I recommend playing it on the [Mesen](https://www.mesen.ca/) emulator
+because it's the emulator that I use to test & debug the game on,
+so it should work fine.
+It is also the most accurate emulator that I know
+(I can't think of developing on the NES without all of these debugging features).
 
 ## Compile
 
@@ -30,25 +51,14 @@ Note: You may need to change some configs in the Makefile to be able to run comm
 | `make doc`  | Generate the doc             |
 | `make img`  | Convert the .nes into a .png |
 
-## Downloads
-
-### Nightly build
-
-Somewhere at the root of the repo (for now).
-
-## Emulators
-
-I recommend playing it on the [Mesen](https://www.mesen.ca/) emulator
-because it's the emulator that I use to test & debug the game on,
-so it should work fine.
-It is also the most accurate emulator that I know
-(I can't think of developing on the NES without all of these debugging features).
-
 ## Credits / Disclaimer
 
 ```
 UNDERTALE belongs to Toby Fox.
 Please support the original release @ https://undertale.com
+
+You can get the Soundtrack on Steam (https://store.steampowered.com/app/391570/UNDERTALE_Soundtrack/)
+or at https://tobyfox.bandcamp.com/album/undertale-soundtrack
 ```
 
 ### NES
@@ -63,7 +73,7 @@ Please support the original release @ https://undertale.com
 
 ### Musics
 
-Ressources that help me a lot made by people much more talented than in regard to musics.
+Ressources that help me a lot made by people much more talented than me in regard to musics.
 
 - [The Toby Fox Sample Sheet](https://docs.google.com/spreadsheets/d/10is6jIBxYlPm0Bcaf0KFFw9TE0bph8L0pcXSiz6xs5E/edit#gid=676961136)
 - Undertale MIDI Resource Archive

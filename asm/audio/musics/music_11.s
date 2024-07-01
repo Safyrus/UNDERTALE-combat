@@ -118,10 +118,10 @@ music_data_undertale_ost_11:
 	.byte $31+.lobyte(FAMISTUDIO_DPCM_PTR),$58,$0a,$40,$02 ; 10 impact_hit_cs6 (Pitch:10)
 	.byte $31+.lobyte(FAMISTUDIO_DPCM_PTR),$58,$0b,$40,$02 ; 11 impact_hit_cs6 (Pitch:11)
 	.byte $31+.lobyte(FAMISTUDIO_DPCM_PTR),$58,$0c,$40,$02 ; 12 impact_hit_cs6 (Pitch:12)
-	.byte $06+.lobyte(FAMISTUDIO_DPCM_PTR),$18,$0d,$40,$00 ; 13 megadrive_drumki (Pitch:13)
-	.byte $06+.lobyte(FAMISTUDIO_DPCM_PTR),$18,$0e,$40,$00 ; 14 megadrive_drumki (Pitch:14)
-	.byte $06+.lobyte(FAMISTUDIO_DPCM_PTR),$18,$0f,$40,$00 ; 15 megadrive_drumki (Pitch:15)
-	.byte $0c+.lobyte(FAMISTUDIO_DPCM_PTR),$06,$0f,$40,$00 ; 16 megadrive_drumki 1 (Pitch:15)
+	.byte $77+.lobyte(FAMISTUDIO_DPCM_PTR),$18,$0d,$40,$00 ; 53 megadrive_drumki (Pitch:13)
+	.byte $77+.lobyte(FAMISTUDIO_DPCM_PTR),$18,$0e,$40,$00 ; 54 megadrive_drumki (Pitch:14)
+	.byte $77+.lobyte(FAMISTUDIO_DPCM_PTR),$18,$0f,$40,$00 ; 55 megadrive_drumki (Pitch:15)
+	.byte $7d+.lobyte(FAMISTUDIO_DPCM_PTR),$06,$0f,$40,$00 ; 56 megadrive_drumki 1 (Pitch:15)
 	.byte $47+.lobyte(FAMISTUDIO_DPCM_PTR),$1d,$08,$40,$02 ; 17 nes_drumkit_1 (Pitch:8)
 	.byte $47+.lobyte(FAMISTUDIO_DPCM_PTR),$1d,$0b,$40,$02 ; 18 nes_drumkit_1 (Pitch:11)
 	.byte $47+.lobyte(FAMISTUDIO_DPCM_PTR),$1d,$0d,$40,$02 ; 19 nes_drumkit_1 (Pitch:13)
@@ -680,23 +680,23 @@ music_data_undertale_ost_11:
 	.byte $ff, $ff, $ab, $ff, $ff, $ab, $ff, $ff, $ab, $ff, $ff, $ab
 	.byte $41, $0c
 	.word @song1ref288
-	.byte $cb, $8a
-@song1ref305:
+	.byte $cb, $7f, $8a
+@song1ref306:
 	.byte $28, $a1, $27, $a3, $28, $c7, $25, $a3, $27, $a3, $28, $a3, $2f, $a3, $2c, $a1, $28, $c9, $27, $a1, $25, $a3, $20, $a3
 	.byte $00, $c9, $27, $a1, $25, $a3, $27, $c7, $20, $a3, $22, $a3, $23, $a3, $2a, $c7, $27, $ff, $97, $00, $9f, $cb, $26, $a1
 	.byte $25, $a3, $26, $c7, $1e, $a3, $1f, $a3, $21, $a3, $2a, $c7, $26, $c9, $25, $a1, $23, $a3, $25, $a3, $1e, $c9, $00, $a1
-@song1ref377:
+@song1ref378:
 	.byte $20, $a3, $21, $a3, $28, $c7, $2c, $a3, $ef, $00, $ff, $b9, $4e, $02, $cb, $8c
 	.byte $41, $44
-	.word @song1ref305
+	.word @song1ref306
 	.byte $00, $87, $1e, $cd, $00, $93
 	.byte $41, $0d
-	.word @song1ref377
+	.word @song1ref378
 	.byte $41, $44
-	.word @song1ref305
+	.word @song1ref306
 	.byte $00, $87, $1e, $cd, $00, $93
 	.byte $41, $0c
-	.word @song1ref377
+	.word @song1ref378
 	.byte $cb, $8a, $1b, $a1, $1c, $a1, $00, $1b, $a1, $00, $17, $9f, $00, $1b, $a1, $00, $1c, $9f, $00, $81, $1b, $cb, $1c, $9d
 	.byte $00, $1e, $ed, $20, $c7, $00, $1b, $87, $1c, $87, $1b, $b1, $00, $a5, $17, $a1, $00, $23, $a1, $00, $22, $9f, $00, $1e
 	.byte $a1, $00, $1b, $9f, $00, $81, $20, $ff, $93, $00, $c7, $03, $a1, $00, $04, $9f, $00, $81, $cb, $1a, $a1, $1c, $a1, $00
@@ -706,14 +706,14 @@ music_data_undertale_ost_11:
 	.byte $25, $b5, $23, $8d, $21, $93, $23, $ff, $dd, $20, $a3, $21, $8d, $20, $93, $1e, $ff, $93, $00, $ff, $93, $ff, $ff, $ab
 	.byte $ff, $ff, $ab, $ff, $ff, $ab, $4e, $02, $cb, $8c
 	.byte $41, $44
-	.word @song1ref305
+	.word @song1ref306
 	.byte $00, $87, $1e, $cd, $00, $93
 	.byte $41, $0d
-	.word @song1ref377
+	.word @song1ref378
 	.byte $41, $44
-	.word @song1ref305
-	.byte $00, $87, $1e, $bf, $00, $a1, $20, $a3, $21, $a3, $28, $c7, $00, $85, $7f, $50, $fe, $00, $2c, $9b, $ff, $ff, $a7, $00
-	.byte $81, $ff, $ff, $ab, $ff, $ff, $ab, $ff, $ff, $ab, $42
+	.word @song1ref306
+	.byte $00, $87, $1e, $bf, $00, $a1, $20, $a3, $21, $a3, $28, $c7, $00, $85, $50, $fe, $00, $2c, $9b, $ff, $ff, $a7, $00, $81
+	.byte $ff, $ff, $ab, $ff, $ff, $ab, $ff, $ff, $ab, $42
 	.word @song1ch1loop
 @song1ch2:
 @song1ch2loop:

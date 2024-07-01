@@ -1,6 +1,10 @@
 MAIN_music_init:
     @pause = act_choice
+    @hide = n_monster
     mov @pause, #$FF
+    mov @hide, #$00
+
+MAIN_music_reset:
 
     mov PPU_MASK, #$00 ; Disable Rendering
     mov nmi_flags, #$00
@@ -37,8 +41,15 @@ MAIN_music_init:
 
 MAIN_music:
     @pause = act_choice
+    @hide = n_monster
 
+    ; clear text
     JSR clear_main_box
+
+    ; skip UI if hide is true
+    LDA @hide
+    BNE @music
+
     ; get music name
     LDY cur_music
     LDA song_strings_adr_lo, Y
@@ -74,6 +85,7 @@ MAIN_music:
     ; text_pre_process()
     JSR text_pre_process
 
+    @music:
     ; play selected music
     LDX cur_music
     JSR play_music
@@ -111,6 +123,7 @@ MAIN_music:
         JSR text_process
     :
 
+
     ; --------
     ; process inputs
     ; --------
@@ -125,32 +138,73 @@ MAIN_music:
         STA @pause
         JSR famistudio_music_pause
     :
+    ; if B is pressed
+    LDA btn_1
+    AND #BTN_B
+    BEQ :+
+        ; hide/show UI
+        LDA @hide
+        EOR #$FF
+        STA @hide
+        JMP MAIN_music_reset
+    :
     ; if left is pressed
     LDA btn_1
     AND #BTN_LEFT
-    BEQ :++
-        ; previous musics
-        DEC cur_music
-        ; if underflow
-        LDA cur_music
-        CMP #$FF
-        BNE :+
-            ;
-            mov cur_music, #MAX_MUSIC
-        :
+    BNE @left
+    ; or down is pressed
+    LDA btn_1
+    AND #BTN_DOWN
+    BEQ :+
+        ; if it was down
+        @down:
+            ; cur_music -= 8
+            LDA cur_music
+            sub #$08
+            BCC @underflow
+            STA cur_music
+            JMP MAIN_music
+        ; else
+        @left:
+            ; previous musics
+            DEC cur_music
+            LDA cur_music
+            CMP #$FF
+            BEQ @underflow
+            JMP MAIN_music
+
+        @underflow:
+        ; cur_music = MAX_MUSIC
+        mov cur_music, #MAX_MUSIC
         JMP MAIN_music
     :
+
     ; if right is pressed
     LDA btn_1
     AND #BTN_RIGHT
+    BNE @right
+    ; or up is pressed
+    LDA btn_1
+    AND #BTN_UP
     BEQ :++
-        ; next musics
-        INC cur_music
+        ; if it was up
+        @up:
+            ; cur_music += 8
+            LDA #$08
+            add cur_music
+            STA cur_music
+            BNE @plus
+        ; else
+        @right:
+            ; next musics
+            INC cur_music
+            LDA cur_music
+
         ; if overflow
-        LDA cur_music
+        @plus:
         CMP #MAX_MUSIC
         ble :+
-            ;
+            ; cur_music = 0
             mov cur_music, #0
         :
         JMP MAIN_music
@@ -159,8 +213,9 @@ MAIN_music:
 
 
 @text:
-.byte CHAR::FDB, CHAR::POS, $02, $18, CHAR::SPD, $00
-.byte "A Play/Pause", CHAR::LB
-.byte "< Previous   > Next";, CHAR::FDB
+.byte CHAR::FDB, CHAR::POS, $02, $18, CHAR::FNT, 0, CHAR::SPD, $00
+.byte "A Play/Pause  B Hide/Show UI", CHAR::LB
+.byte "< Previous    > Next", CHAR::LB
+.byte "v Prev*8      ^ Next*8"
 .byte CHAR::FDB, CHAR::END
 @text_end:

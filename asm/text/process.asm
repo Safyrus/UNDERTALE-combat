@@ -321,6 +321,7 @@ char_FNT:
     LDY dialog_boxs + DialogBox::ptr, X
     ; dialog_boxs[X].font = str_buf[Y]
     LDA str_buf, Y
+    ORA #$80 ; correct palette
     STA dialog_boxs + DialogBox::font, X
     ; return
     RTS

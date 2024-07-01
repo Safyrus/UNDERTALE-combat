@@ -112,9 +112,22 @@ text_pre_process:
             STA str_buf, X
             ; i++
             INX
-            ; if c == SPD
+            ; if c any of: SPD, DL, MUS, SND, BIP, FNT, SPA
             CMP #CHAR::SPD
+            BEQ @one
+            CMP #CHAR::DL
+            BEQ @one
+            CMP #CHAR::MUS
+            BEQ @one
+            CMP #CHAR::SND
+            BEQ @one
+            CMP #CHAR::BIP
+            BEQ @one
+            CMP #CHAR::FNT
+            BEQ @one
+            CMP #CHAR::SPA
             BNE :+
+            @one:
                 ; c = read_next_char()
                 JSR read_next_char
                 ; buf[i] = c
