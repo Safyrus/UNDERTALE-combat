@@ -5,7 +5,7 @@
 This is an attempt at recreating the **UNDERTALE combat** system for the **NES**.
 
 This project also contain another project:
-A **remake** all the **UNDERTALE OST** using the **NES MMC5** mapper.
+A **demake** of all the **UNDERTALE OST** using the **NES MMC5** mapper.
 You can find the project [here](data/undertale.fms).
 You will need [FamiStudio](https://famistudio.org/) to open it.
 Also, I'm no musician, so I'm sure there are mistakes here and there.
